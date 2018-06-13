@@ -390,5 +390,5 @@ int main()
 }
 
 /*	作业：
-		这里只介绍了C++的string，在学习完c string之后才能做作业。 
+		这里只介绍了C++的string，在学习完cstring之后才能做字符串作业。 
 */

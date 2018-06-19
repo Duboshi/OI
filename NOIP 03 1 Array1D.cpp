@@ -424,9 +424,9 @@ int main()
 }
 	
 /*	作业：
-	1.6编程基础之一维数组（15题） http://noi.openjudge.cn/ch0106/
-	1.9编程基础之顺序查找（15题） http://noi.openjudge.cn/ch0109/
-	1.10编程基础之简单排序（10题） http://noi.openjudge.cn/ch0110/
-	1.11编程基础之二分查找（10题） http://noi.openjudge.cn/ch0111/
-	其中涉及大整数计算（例如多达100位的整数，2的100次幂等等）暂且略过 
+		1.6编程基础之一维数组（15题） http://noi.openjudge.cn/ch0106/
+		1.9编程基础之顺序查找（15题） http://noi.openjudge.cn/ch0109/
+		1.10编程基础之简单排序（10题） http://noi.openjudge.cn/ch0110/
+		1.11编程基础之二分查找（10题） http://noi.openjudge.cn/ch0111/
+		其中涉及大整数计算（例如多达100位的整数，2的100次幂等等）暂且略过 
 */

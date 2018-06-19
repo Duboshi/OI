@@ -264,8 +264,12 @@ int main() {
 			result[0]--; //使result[0]显示确切的位数 
 		for (i=result[0]; i>=1; i--) 
 				cout<<result[i];
+		cout<<endl;
 				
-		//输出余数 
+		//输出余数
+		for (i=temp[0]; i>=1; i--) 
+			cout<<temp[i];
+		cout<<endl;
 	printf("\n");
 	
 	return 0;

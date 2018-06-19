@@ -423,8 +423,7 @@ int main()
 	return 0;
 }
 	
-/*	
-	作业：
+/*	作业：
 	1.6编程基础之一维数组（15题） http://noi.openjudge.cn/ch0106/
 	1.9编程基础之顺序查找（15题） http://noi.openjudge.cn/ch0109/
 	1.10编程基础之简单排序（10题） http://noi.openjudge.cn/ch0110/

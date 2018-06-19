@@ -356,3 +356,9 @@ void bigMinus()
 	}
 	while (temp[0]>1 && temp[temp[0]]==0) temp[0]--; //记录temp位数可能发生的变化 
 }
+
+/*	作业：
+		1.6编程基础之一维数组 http://noi.openjudge.cn/ch0106/
+		1.13编程基础之综合应用 http://noi.openjudge.cn/ch0113/
+		其中涉及大整数计算（例如多达100位的整数，2的100次幂等等）的题目 
+*/

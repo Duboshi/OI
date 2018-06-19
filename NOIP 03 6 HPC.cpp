@@ -317,9 +317,7 @@ void newTemp(int i)
 
 如何储存呢？ 
 只需把前一步得到的余数temp[1]至temp[len1-i]挪到temp[2]至temp[len1+1-i]，并将
-temp[1]赋值为num1[i]即可。
-
-函数参数：int *temp用数组指针可以改变原数组的值，用int i不会改变原i的值。 */
+temp[1]赋值为num1[i]即可。 */
 	for (int j=len_num1-i; j>=1; j--)
 		temp[j+1] = temp[j];
 	temp[1] = num1[i];	

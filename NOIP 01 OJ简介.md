@@ -13,7 +13,9 @@ Online Judge简介
 **初学者从下面几个入手:**  
 
 http://oj.noi.cn/  
+```
     NOI官方OJ（中文），官方教材《入门篇》《基础篇》的教材习题在这个上，目前只有比较简单的题。  
+```
   
 http://openjudge.cn/  
     学习刷题常用的中国OJ（中文），是POJ团队推出的平台。Peking University OJ是全球著名OJ，openjudge是  

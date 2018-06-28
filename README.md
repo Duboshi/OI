@@ -1,4 +1,4 @@
-NOIP
+OI信息学竞赛
 ======
 
 |Author|杜博识Dubos|

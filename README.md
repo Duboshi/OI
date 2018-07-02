@@ -55,10 +55,10 @@ OI (Olympiads in Informatics)，国内译作`信息学竞赛`（或`信息学奥
 		1. 二叉排序树，二叉堆， 并查集，线段树，哈夫曼树，树状数组，块状链表，后缀树，二叉查找树  
 		2. 字典树Trie，KMP算法，AC自动机，后缀数组，哈希表与字符串  
 	
-	* 图论（+括号内有加号的内容可以放到NOI）：
-		1. 生成树：最小生成树，Kruskal算法，Prim算法，(+最近公共祖先LCA)  
-		2. 最短路：单源最短路SSSP，Dijkstra算法，Bellman-Ford算法及其SPFA优化，Floyd-Warshall算法，（+负环/负圈，差分约束）   
-		3. 连通性：强连通分量SCC，Trajan算法，Kosaraju算法，（+2SAT问题）
+	* 图论：
+		1. 生成树：最小生成树，Kruskal算法，Prim算法，最近公共祖先LCA  
+		2. 最短路：单源最短路SSSP，Dijkstra算法，Bellman-Ford算法及其SPFA优化，Floyd-Warshall算法，+负环/负圈，差分约束   
+		3. 连通性：强连通分量SCC，Trajan算法，Kosaraju算法，2SAT问题
 
 * **省选与NOI**
 

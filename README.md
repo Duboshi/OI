@@ -78,7 +78,7 @@ OI (Olympiads in Informatics)，国内译作`信息学竞赛`（或`信息学奥
 	* 数据结构：平衡树Treap，伸展树Splay，最小树形图，自动机，动态树，树套树，可持久化数据结构
 		
 	* 图论（还有NOIP图论中括号内有加号的内容）：  
-		1. 连通性：强连通分量SCC，Trajan算法，Kosaraju算法，+2SAT问题  
+		1. 连通性：强连通分量SCC，Trajan算法，Kosaraju算法，2SAT问题  
 		2. 二分图：二分图的构造，二分图的匹配，匈牙利算法(或称KM算法、Kuhn-Munkres算法)，Hopcroft-Karp算法，一般图的匹配  
 		3. 启发式搜索：A* 算法，IDA* 算法  
 

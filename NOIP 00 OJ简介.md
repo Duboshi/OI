@@ -46,7 +46,7 @@ Online Judge简介
   
 	* https://www.lydsy.com/JudgeOnline/
 
-		* 原来的BZOJ（衡阳八中OJ），现在叫大视野，由李煜东运营，集中了最近10多年的省选、NOI、冬令营、APIO、CTSC真题，（从2018年6月来看）比洛谷收集的全，所以对省选和国决都非常有帮助。
+		* 原来的BZOJ（衡阳八中OJ），现在叫大视野，集中了最近10多年的省选、NOI、冬令营、APIO、CTSC真题，（从2018年6月来看）比洛谷收集的全，所以对省选和国决都非常有帮助。
 	
 	* https://icpcarchive.ecs.baylor.edu/
 

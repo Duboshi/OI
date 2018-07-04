@@ -87,4 +87,4 @@ OI (Olympiads in Informatics)，国内译作`信息学竞赛`（或`信息学奥
 
 信息学竞赛跟数理化生竞赛不同的是，做题可以用在线测评系统（Online Judge）评分:100:。除了公平、高效之外，还有一个好处是让用户看到许多其他用户的水平，这样就可以了解到其他学校、城市、省份乃至国家的选手:raising_hand:。当然OJ平台也有很多，有的主要用于学习阶段刷题，有的是学成之后去与高手切磋的，不同学习阶段用不同的平台。关于Online Judge的更多内容见[《OJ简介》](/NOIP%2000%20OJ简介.md)
 
-[NOIP 01 1]:https://github.com/Duboshi/OI/blob/master/NOIP%2001%201%20C%2B%2B%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%85%A5%E9%97%A8.cpp
+[NOIP 01 1](/NOIP 01 1 C++入门.cpp)

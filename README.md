@@ -51,11 +51,11 @@ OI (Olympiads in Informatics)，国内译作`信息学竞赛`（或`信息学奥
 	* 动态规划：有向无环图DAG上的动态规划，树形动态规划，环形动态规划，后效性处理，状态压缩，倍增优化
 	
 	* 数据结构：
-		1. 二叉堆， 并查集，线段树，哈夫曼树，树状数组，块状链表，后缀树  
-		2. 字典树Trie，KMP算法，AC自动机，后缀数组，哈希表与字符串  
+		1. 二叉堆， 并查集，线段树，二叉索引树/树状数组，哈夫曼Huffman树  
+		2. 字典树Trie，哈希表Hash与字符串，KMP算法，AC自动机，后缀数组，后缀树  
 	
 	* 图论：
-		1. 生成树：最小生成树，Kruskal算法，Prim算法，最近公共祖先LCA  
+		1. 生成树：最小生成树MST，Kruskal算法，Prim算法，最近公共祖先LCA，最小有向生成树/最小树形图  
 		2. 最短路：单源最短路SSSP，Dijkstra算法，Bellman-Ford算法及其SPFA优化，Floyd-Warshall算法，负环/负圈，差分约束   
 		3. 连通性：强连通分量SCC，Trajan算法，Kosaraju算法，2SAT问题
 
@@ -78,7 +78,7 @@ OI (Olympiads in Informatics)，国内译作`信息学竞赛`（或`信息学奥
 		4. 三维几何
 		5. 多边形的布尔计算 
 		
-	* 数据结构：二叉查找树BST，平衡树Treap，伸展树Splay，最小树形图，动态树LCT（Link-Cut Trees），树链剖分，树套树，可持久化数据结构
+	* 数据结构：1. 二叉查找树BST，平衡树Treap，伸展树Splay，动态树LCT（Link-Cut Trees），树套树，树链剖分，分块/块状链表，可持久化数据结构
 		
 	* 图论（还有NOIP图论中括号内有加号的内容）：   
 		1. 二分图：二分图的构造，二分图的匹配，匈牙利算法，KM算法（Kuhn-Munkres算法)，Hopcroft-Karp算法，一般图的匹配

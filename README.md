@@ -79,7 +79,8 @@ OI (Olympiads in Informatics)，国内译作`信息学竞赛`（或`信息学奥
 		5. 多边形的布尔计算 
 		
 	* 数据结构：
-		1. 二叉查找树/二叉排序树BST，平衡树Treap，伸展树Splay，平衡二叉树SBT，树套树  
+		1. 二叉查找树/二叉排序树BST，平衡树Treap，伸展树Splay，平衡二叉树SBT
+		2. 树套树：线段树套线段树，线段树套平衡树，平衡树套线段树  
 		2. 树链剖分，动态树LCT（Link-Cut Trees）
 		3. 分块，块状链表
 		4. 可持久化数据结构
@@ -88,6 +89,8 @@ OI (Olympiads in Informatics)，国内译作`信息学竞赛`（或`信息学奥
 		1. 二分图：二分图的构造，二分图的匹配，匈牙利算法，KM算法（Kuhn-Munkres算法)，Hopcroft-Karp算法，一般图的匹配
 		2. 网络流：最大流问题，Ford-Fulkerson增广路径算法与Edmonds-Karp算法，Dinic算法，ISAP算法，最大流最小割定理，最小费用最大流问题  
 		3. 启发式搜索：A* 算法，IDA* 算法  
+	* 其他：
+	1. [莫队算法][莫] [MO’s Algorithm][MO]
 
 信息学竞赛跟数理化生竞赛不同的是，做题可以用在线测评系统（Online Judge）评分:100:。除了公平、高效之外，还有一个好处是让用户看到许多其他用户的水平，这样就可以了解到其他学校、城市、省份乃至国家的选手:raising_hand:。当然OJ平台也有很多，有的主要用于学习阶段刷题，有的是学成之后去与高手切磋的，不同学习阶段用不同的平台。关于Online Judge的更多内容见[《OJ简介》](/NOIP%2000%20OJ简介.md)
 
@@ -100,3 +103,5 @@ OI (Olympiads in Informatics)，国内译作`信息学竞赛`（或`信息学奥
 [NOIP 03 6]:https://github.com/Duboshi/OI/blob/master/NOIP%2003%206%20%E9%AB%98%E7%B2%BE%E5%BA%A6%E8%AE%A1%E7%AE%97.cpp
 [NOIP 04]:https://github.com/Duboshi/OI/blob/master/NOIP%2004%20%E6%8C%87%E9%92%88.cpp
 [NOIP 05 1]:https://github.com/Duboshi/OI/blob/master/NOIP%2005%201%20%E5%87%BD%E6%95%B0.cpp
+[MO]:https://blog.anudeep2011.com/mos-algorithm/
+[莫]:https://www.zhihu.com/question/27316467

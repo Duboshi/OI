@@ -82,7 +82,7 @@ OI (Olympiads in Informatics)，国内译作`信息学竞赛`（或`信息学奥
 	* 数据结构：平衡树Treap，伸展树Splay，最小树形图，动态树LCT（Link-Cut Trees），树链剖分，树套树，可持久化数据结构
 		
 	* 图论（还有NOIP图论中括号内有加号的内容）：   
-		1. 二分图：二分图的构造，二分图的匹配，匈牙利算法(或称KM算法、Kuhn-Munkres算法)，Hopcroft-Karp算法，一般图的匹配
+		1. 二分图：二分图的构造，二分图的匹配，匈牙利算法，KM算法（Kuhn-Munkres算法)，Hopcroft-Karp算法，一般图的匹配
 		2. 网络流：最大流问题，Ford-Fulkerson增广路径算法与Edmonds-Karp算法，Dinic算法，ISAP算法，最大流最小割定理，最小费用最大流问题  
 		3. 启发式搜索：A* 算法，IDA* 算法  
 

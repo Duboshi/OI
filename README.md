@@ -78,7 +78,12 @@ OI (Olympiads in Informatics)，国内译作`信息学竞赛`（或`信息学奥
 		4. 三维几何
 		5. 多边形的布尔计算 
 		
-	* 数据结构：1. 二叉查找树BST，平衡树Treap，伸展树Splay，动态树LCT（Link-Cut Trees），树套树，树链剖分，分块/块状链表，可持久化数据结构
+	* 数据结构：
+		1. 二叉查找树/二叉排序树BST，平衡树Treap，伸展树Splay  
+		2. 动态树LCT（Link-Cut Trees），树套树
+		3. 树链剖分
+		4. 分块，块状链表
+		5. 可持久化数据结构
 		
 	* 图论（还有NOIP图论中括号内有加号的内容）：   
 		1. 二分图：二分图的构造，二分图的匹配，匈牙利算法，KM算法（Kuhn-Munkres算法)，Hopcroft-Karp算法，一般图的匹配

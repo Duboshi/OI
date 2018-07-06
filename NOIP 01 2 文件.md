@@ -1,6 +1,6 @@
 时间紧张，先用一种最方便的方法：**文件重定向**。语句非常简单，在main函数前两行加入freopen语句：
 ```cpp
-#include <cstdio> //使用freopen函数必须调用cstdio
+#include <cstdio> //freopen是cstdio库函数
 
 using namespace std;
 int main ()

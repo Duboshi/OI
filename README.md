@@ -11,7 +11,7 @@ OI (Olympiads in Informatics)，国内译作`信息学竞赛`（或`信息学奥
 
 * **NOIP普及组**  
 	* C++入门
-		1. [入门：基本数据类型，常量与变量，赋值，算术表达式，整除与求余，模运算，数制转化，输入输出][NOIP 01 1]，文件操作
+		1. [入门：基本数据类型，常量与变量，赋值，算术表达式，整除与求余，模运算，数制转化，输入输出][NOIP 01 1]，[文件操作][NOIP 01 2]
 		3. [程序的控制结构，逻辑表达式，逻辑运算，关系表达式，复合语句，条件语句，循环语句，条件嵌套，循环嵌套][NOIP 02]
 		4. [一维数组][NOIP 03 1]，[二维数组][NOIP 03 2]，[字符数组][NOIP 03 3]，[字符串string][NOIP 03 4]，字符串cstring，[高精度计算][NOIP 03 6]
 		5. [指针，引用][NOIP 04]
@@ -95,6 +95,7 @@ OI (Olympiads in Informatics)，国内译作`信息学竞赛`（或`信息学奥
 信息学竞赛跟数理化生竞赛不同的是，做题可以用在线测评系统（Online Judge）评分:100:。除了公平、高效之外，还有一个好处是让用户看到许多其他用户的水平，这样就可以了解到其他学校、城市、省份乃至国家的选手:raising_hand:。当然OJ平台也有很多，有的主要用于学习阶段刷题，有的是学成之后去与高手切磋的，不同学习阶段用不同的平台。关于Online Judge的更多内容见[《OJ简介》](/NOIP%2000%20OJ简介.md)
 
 [NOIP 01 1]:https://github.com/Duboshi/OI/blob/master/NOIP%2001%201%20C++%E5%85%A5%E9%97%A8.cpp
+[NOIP 01 2]:https://github.com/Duboshi/OI/blob/master/NOIP%2001%202%20文件.md
 [NOIP 02]:https://github.com/Duboshi/OI/blob/master/NOIP%2002%20%E7%A8%8B%E5%BA%8F%E7%9A%84%E6%8E%A7%E5%88%B6%E7%BB%93%E6%9E%84.cpp
 [NOIP 03 1]:https://github.com/Duboshi/OI/blob/master/NOIP%2003%201%20%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84.cpp
 [NOIP 03 2]:https://github.com/Duboshi/OI/blob/master/NOIP%2003%202%20%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84.cpp

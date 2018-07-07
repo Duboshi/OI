@@ -1,6 +1,6 @@
-信息学竞赛与升学$$3n+\sum_2^n{\pi}$$
+信息学竞赛与升学
 ======
-
+$$3n+\sum_2^n{\pi}$$ 
 |Author|杜博识Dubos|
 |---|---|
 |E-mail|dubos@foxmail.com|

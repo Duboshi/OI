@@ -9,7 +9,8 @@
 
 * **文件重定向**
 	* 这是第三种做法，语句非常简单，在main函数前两行加入freopen语句：
-	* ```cpp
+	* 
+```cpp
 #include <cstdio> //freopen是cstdio库函数
 
 using namespace std;

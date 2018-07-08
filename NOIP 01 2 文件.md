@@ -2,12 +2,13 @@
 
 由于信息学竞赛的输入数据有时很大，所以数据文件的读取效率非常重要。我们下面介绍的是三种效率较高的文件输入输出方式：  
 
-* **fstream + fin/fout**  
-	* 这是第一种做饭
-* **FILE * + fscanf/fprintf**
+* **流文件方法：fstream + fin/fout**  
+	* 这是第一种做饭  
+	
+* **文件指针方法：FILE * + fscanf/fprintf**
 	* 这是第二种做法
 
-* **文件重定向**
+* **文件重定向方法：freopen + scanf/printf**
 	* 这是第三种做法，语句非常简单，在main函数前两行加入freopen语句：
 ```cpp
 	#include <cstdio> //freopen是cstdio库函数

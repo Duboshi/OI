@@ -11,16 +11,16 @@
 	* 这是第三种做法，语句非常简单，在main函数前两行加入freopen语句：
 	* 
 ```cpp
-#include <cstdio> //freopen是cstdio库函数
+	#include <cstdio> //freopen是cstdio库函数
 
-using namespace std;
-int main ()
-{
-	freopen("输入文件名", "r", stdin);	//r代表read
-	freopen("输出文件名", "w", stdout);	//w代表write
-	//正常该写什么就写什么
-	return 0;
-}
+	using namespace std;
+	int main ()
+	{
+		freopen("输入文件名", "r", stdin);	//r代表read
+		freopen("输出文件名", "w", stdout);	//w代表write
+		//正常该写什么就写什么
+		return 0;
+	}
 ```
 【例题】 
 * 输入（filename.in）:一个整数

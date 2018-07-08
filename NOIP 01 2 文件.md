@@ -21,6 +21,7 @@
 		return 0;
 	}
 ```
+
 	* 【例题】 
 		* 输入（filename.in）:一个整数
 		* 输出（filename.out）:该整数的平方

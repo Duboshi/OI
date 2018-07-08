@@ -28,20 +28,20 @@
 	* 输出（filename.out）:该整数的平方   
 		
 ```cpp
-		#include <cstdio>
-		#include <iostream>
+	#include <cstdio>
+	#include <iostream>
 
-		using namespace std;
+	using namespace std;
 
-		int main ()
-		{
-			freopen("filename.in", "r", stdin);
-			freopen("filename.out", "w", stdout);
+	int main ()
+	{
+		freopen("filename.in", "r", stdin);
+		freopen("filename.out", "w", stdout);
 
-			int n;
-			cin>>n;
-			cout<<n*n;
-			return 0;
-		}
+		int n;
+		scanf("%d", &n);
+		printf("%d", n*n);
+		return 0;
+	}
 ```
 输入输出文件与源代码在同一个文件夹里：可以自己新建一个文本文档，里面写一个整数，然后把拓展名改为.in，之后运行代码，就会发现同一个文件夹里多了一个.out文件。

@@ -1,6 +1,6 @@
 /*	@author 杜博识Dubos
 
-NOIP 03.6 高精度计算 High Precision Computation
+NOIP 03.f 高精度计算 High Precision Computation
 	（也称为“大整数计算”） 
 	以《CCF基础篇》第7.2节为主；
 	以《 程序设计导引及在线实践》第7章为辅；

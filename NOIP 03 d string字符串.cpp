@@ -1,6 +1,6 @@
 /*	@author 杜博识Dubos
 
-NOIP 03.4 C++字符串string 
+NOIP 03.d C++字符串string 
 	以http://www.cplusplus.com/reference/string/string/为主；
 	以C++ Primer第3章、《CCF基础篇》第2章、《新标准C++程序设计教程》第19.13节为辅；
 	以《算法竞赛入门经典》第5.1.3节为参考；

@@ -1,6 +1,6 @@
 /*	@author 杜博识Dubos
 
-NOIP 03.3 字符数组Character Array 
+NOIP 03.c 字符数组Character Array 
 	以《CCF入门篇》第5章5.4节、《CCF基础篇》第2章为主；
 	以《一本通》第一部分第5章第三节为辅； 
 	以《入门经典》第3章为参考； 
@@ -55,7 +55,7 @@ int main()
 				多个字符数组；
 				
 				如果想要把从键盘输入的中间有空格的一串字符（例如一句话）存储在
-				一个字符数组里面，就需要用getchar()函数，NOIP 01 Introdution中
+				一个字符数组里面，就需要用getchar()函数，NOIP 01 a中
 				曾经介绍过：
 				
 					getchar()只能接受一个字符（一个字母也按字符处理），多于
@@ -75,7 +75,7 @@ int main()
 		cout<<charArr4<<" "<<charArr5<<endl;
 		
 		/*
-		5. 重温char与int的相互转换，这是在NOIP 01里面讲过 
+		5. 重温char与int的相互转换，这是在NOIP 01 a里面讲过 
 		*/
 		char c = 97;
 			//赋值数据类型转换，将ASCII编码转为字符（《一本通》p26-27）；

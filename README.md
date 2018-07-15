@@ -94,15 +94,15 @@ OI (Olympiads in Informatics)，国内译作`信息学竞赛`（或`信息学奥
 
 信息学竞赛跟数理化生竞赛不同的是，做题可以用在线测评系统（Online Judge）评分:100:。除了公平、高效之外，还有一个好处是让用户看到许多其他用户的水平，这样就可以了解到其他学校、城市、省份乃至国家的选手:raising_hand:。当然OJ平台也有很多，有的主要用于学习阶段刷题，有的是学成之后去与高手切磋的，不同学习阶段用不同的平台。关于Online Judge的更多内容见[《OJ简介》](/NOIP%2000%20OJ简介.md)
 
-[NOIP 01 1]:/NOIP%2001%20a%20C%2B%2B入门.cpp
-[NOIP 01 2]:https://github.com/Duboshi/OI/blob/master/NOIP%2001%202%20文件.md
+[NOIP 01 a]:/NOIP%2001%20a%20C%2B%2B入门.cpp
+[NOIP 01 b]:https://github.com/Duboshi/OI/blob/master/NOIP%2001%202%20文件.md
 [NOIP 02]:https://github.com/Duboshi/OI/blob/master/NOIP%2002%20%E7%A8%8B%E5%BA%8F%E7%9A%84%E6%8E%A7%E5%88%B6%E7%BB%93%E6%9E%84.cpp
-[NOIP 03 1]:https://github.com/Duboshi/OI/blob/master/NOIP%2003%201%20%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84.cpp
-[NOIP 03 2]:https://github.com/Duboshi/OI/blob/master/NOIP%2003%202%20%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84.cpp
-[NOIP 03 3]:https://github.com/Duboshi/OI/blob/master/NOIP%2003%203%20%E5%AD%97%E7%AC%A6%E6%95%B0%E7%BB%84.cpp
-[NOIP 03 4]:https://github.com/Duboshi/OI/blob/master/NOIP%2003%204%20string%E5%AD%97%E7%AC%A6%E4%B8%B2.cpp
-[NOIP 03 6]:https://github.com/Duboshi/OI/blob/master/NOIP%2003%206%20%E9%AB%98%E7%B2%BE%E5%BA%A6%E8%AE%A1%E7%AE%97.cpp
+[NOIP 03 a]:https://github.com/Duboshi/OI/blob/master/NOIP%2003%201%20%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84.cpp
+[NOIP 03 b]:https://github.com/Duboshi/OI/blob/master/NOIP%2003%202%20%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84.cpp
+[NOIP 03 c]:https://github.com/Duboshi/OI/blob/master/NOIP%2003%203%20%E5%AD%97%E7%AC%A6%E6%95%B0%E7%BB%84.cpp
+[NOIP 03 d]:https://github.com/Duboshi/OI/blob/master/NOIP%2003%204%20string%E5%AD%97%E7%AC%A6%E4%B8%B2.cpp
+[NOIP 03 f]:https://github.com/Duboshi/OI/blob/master/NOIP%2003%206%20%E9%AB%98%E7%B2%BE%E5%BA%A6%E8%AE%A1%E7%AE%97.cpp
 [NOIP 04]:https://github.com/Duboshi/OI/blob/master/NOIP%2004%20%E6%8C%87%E9%92%88.cpp
-[NOIP 05 1]:https://github.com/Duboshi/OI/blob/master/NOIP%2005%201%20%E5%87%BD%E6%95%B0.cpp
+[NOIP 05 a]:https://github.com/Duboshi/OI/blob/master/NOIP%2005%201%20%E5%87%BD%E6%95%B0.cpp
 [MO]:https://blog.anudeep2011.com/mos-algorithm/
 [莫]:https://www.zhihu.com/question/27316467

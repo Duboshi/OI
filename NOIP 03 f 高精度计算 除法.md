@@ -1,1 +1,11 @@
+NOIP 03 f 高精度计算 除法
+===
+
+|Author|杜博识Dubos|
+|---|---
+|E-mail|dubos@foxmail.com
+
+------
+
+本文是为[《NOIP 03 f 高精度计算》](OI/NOIP 03 f 高精度计算.cpp)中除法部分做的示意图。
 

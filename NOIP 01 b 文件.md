@@ -1,4 +1,4 @@
-NOIP 01.b 文件
+NOIP 01.b 文件（未完成）
 ======
 
 |Author|杜博识Dubos|

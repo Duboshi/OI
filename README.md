@@ -96,13 +96,13 @@ OI (Olympiads in Informatics)，国内译作`信息学竞赛`（或`信息学奥
 
 [NOIP 01 a]:/NOIP%2001%20a%20C%2B%2B入门.cpp
 [NOIP 01 b]:/NOIP%2001%20b%20文件.md
-[NOIP 02]:https://github.com/Duboshi/OI/blob/master/NOIP%2002%20%E7%A8%8B%E5%BA%8F%E7%9A%84%E6%8E%A7%E5%88%B6%E7%BB%93%E6%9E%84.cpp
+[NOIP 02]:/NOIP%2002%20程序的控制结构.cpp
 [NOIP 03 a]:/NOIP%2003%20a%20一维数组.cpp
 [NOIP 03 b]:/NOIP%2003%20b%20二维数组.cpp
 [NOIP 03 c]:/NOIP%2003%20c%20字符数组.cpp
 [NOIP 03 d]:/NOIP%2003%20d%20string字符串.cpp
 [NOIP 03 f]:/NOIP%2003%20f%20高精度计算.cpp
-[NOIP 04]:https://github.com/Duboshi/OI/blob/master/NOIP%2004%20%E6%8C%87%E9%92%88.cpp
+[NOIP 04]:/NOIP%2004%20指针与引用.cpp
 [NOIP 05 a]:/NOIP%2005%20a%20函数.cpp
 [MO]:https://blog.anudeep2011.com/mos-algorithm/
 [莫]:https://www.zhihu.com/question/27316467

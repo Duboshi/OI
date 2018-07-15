@@ -109,7 +109,7 @@
   
 **各年级学习进程规划**  
 
-从以上信息可以看出，与升学相关的几个重要节点是：全国联赛NOIP（获得省一）:triangular_flag_on_post:、冬季体验营:triangular_flag_on_post:、省选:triangular_flag_on_post:、信息学体验营:triangular_flag_on_post:、全国决赛NOI:triangular_flag_on_post:。除了省一之外，参加后面几个节点的同学主要目标是清华北大两间高校或美国前十名的大学，并以上交、复旦、浙大、南大、科大等国内名校或UC Berkeley、CMU、Cornell等美国名校为备选。  
+从以上信息可以看出，与升学相关的几个重要节点是：全国联赛NOIP（获得省一）:triangular_flag_on_post:、冬季体验营:triangular_flag_on_post:、省选:triangular_flag_on_post:、信息学体验营:triangular_flag_on_post:、全国决赛NOI:triangular_flag_on_post:。除了省一之外，参加后面几个节点的同学主要目标是清华北大或美国前十名的大学，并以上交、复旦、浙大、南大、科大等国内名校或UC Berkeley、CMU、Cornell等美国名校为备选。  
 * 省一：用于信息学特长生升入顶尖高中（普及组一等奖或省二对一些高中也可以），或除清华北大之外的大学自主招生  
 
 |入门|普及组一等奖|第一次获省一|说明

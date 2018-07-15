@@ -208,7 +208,7 @@ int main() {
 		输入数据：两行，每行是一个不超过200位的非负整数，正整数不能以0开始
 		输出数据：两行，第一行商，第二行余数，正整数不能以0开始
 		解题思路：笔算整数除法，这个比较复杂，请看示意图 - https://github.com/Duboshi/NOIP
-			上述文件夹里面的NOIP 03.6 高精度计算 除法.pdf
+			上述文件夹里面的NOIP 03 f 高精度计算 除法
 		解题代码：https://github.com/Duboshi/OJ-solutions/tree/master/noi.openjudge.cn
 			中的011347题目 */
 			

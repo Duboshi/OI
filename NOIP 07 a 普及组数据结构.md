@@ -1,4 +1,4 @@
-NOIP 07 普及组数据结构，STL容器（未完成）  
+NOIP 07 a 普及组数据结构，STL容器（未完成）  
 ======
 
 |Author|杜博识Dubos|
@@ -27,28 +27,7 @@ C++的标准模板库（Standard Template Library, 下面简称`STL`）是一些
 图片来自：Josuttis, N. M. (2015). The C++ standard library: A tutorial and reference. Upper Saddle River, NJ: Addison-Wesley.  
 
 
-## 线性数据结构，STL顺序容器和容器适配器
-《基》P126-127  
-* 顺序表：r《基》P128-130 
-* 链表list
-	* r《基》P130-135 
-	* 《入》P143-148，但是这两本书都没有用STL list的例题
-* 队列queue
-	* r《基》P138-141，P233例9.3
-	* 《入》P117-119，例5-6 
-* 双端队列deque
-	* 《入》P139例6-1
-* 优先队列priority_queue
-	* 《入》P119-120，例5-7 
-* 向量（或称动态数组）vector
-	* 《基》P234-235、例9.4
-	* 《入》P109-111
-* 栈stack
-	* 《入》P115-117
-## 树
-* 树，二叉树
-* 集合set
-	* 《入》P112-113
-* 映射map
-	* 《基》P237-240
-	* 《入》P113-115
+## 正文
+分为两部分：
+* 线性数据结构，STL顺序容器和容器适配器
+* 树，STL关联容器

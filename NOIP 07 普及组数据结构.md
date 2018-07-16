@@ -11,8 +11,13 @@ NOIP 07 普及组数据结构，STL容器（未完成）
 	以 C++ Primer 第9章、第11章为参考。
 	
 普及组数据结构主要有线性表、树、图三个部分，由于图相关的内容在后续课程会逐渐占据相当大的比例，所以我们把图论单列为一章，本章只讲**线性表**和**树**。我们会运用已有的C++编程知识实现这些数据结构，虽然实现的原理我们应该掌握，但实际参加比赛或者日常编写程序时，我们直接使用STL模板，不用每次都重复“造轮子”。  
-C++的标准模板库（Standard Template Library, 下面简称`STL`）是一些常用数据结构和算法模板的集合，主要由Alexander Stepanov和David Musser开发，与1998年被添加进C++标准。STL种有三个基本概念：
-* 1. 容器Container：用于存放数据的类模板，例如链表、双端队列等；  
+C++的标准模板库（Standard Template Library, 下面简称`STL`）是一些常用数据结构和算法模板的集合，主要由Alexander Stepanov和David Musser开发，与1998年被添加进C++标准。STL种有三个基本概念：  
+* 1. 容器Container：用于存放数据的类模板，例如链表、双端队列等。容器可以分成4大类：
+	* 1. 顺序容器Sequence containers：数组array，向量（或动态数组）vector，双端队列deque，链表list，前向链表（单向链表）forward_list
+	* 2. 有序关联容器Associative containers：集合set，映射map
+	* 3. 无序关联容器Unordered containers：无序集合unordered_set，无序映射unordered_map
+	* 4. 容器适配器Container adapters：栈stack，队列queue和优先队列priority_queue  
+![图片来自Nicolai M. JosuttisThe C++ Standard Library](/diagrams/NOIP%2007%20STL%20Container%20Types.png)
 * 2. 迭代器Iterator：用于读取容器中元素的工具，作用类似于指针；  
 * 3. 算法Algorithms：用来操作容器中元素的函数模板，例如排序、查找等。  
 

@@ -17,7 +17,8 @@ C++的标准模板库（Standard Template Library, 下面简称`STL`）是一些
 	* 2. 有序关联容器Associative containers：集合set，映射map
 	* 3. 无序关联容器Unordered containers：无序集合unordered_set，无序映射unordered_map
 	* 4. 容器适配器Container adapters：栈stack，队列queue和优先队列priority_queue  
-![图片来自Nicolai M. JosuttisThe C++ Standard Library](/diagrams/NOIP%2007%20STL%20Container%20Types.png)
+![](/diagrams/NOIP%2007%20STL%20Container%20Types.png)  
+Josuttis, N. M. (2015). The C standard library: A tutorial and reference. Upper Saddle River, NJ: Addison-Wesley.  
 * 2. 迭代器Iterator：用于读取容器中元素的工具，作用类似于指针；  
 * 3. 算法Algorithms：用来操作容器中元素的函数模板，例如排序、查找等。  
 

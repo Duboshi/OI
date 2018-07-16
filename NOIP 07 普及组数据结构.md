@@ -14,9 +14,9 @@ NOIP 07 普及组数据结构，STL容器（未完成）
 C++的标准模板库（Standard Template Library, 下面简称`STL`）是一些常用数据结构和算法模板的集合，主要由Alexander Stepanov和David Musser开发，与1998年被添加进C++标准。STL种有三个基本概念，容器、迭代器和算法：  
 1. 容器Container：用于存放数据的类模板，例如链表、双端队列等。容器可以分成4大类：
 	* 1. 顺序容器Sequence containers：数组array，向量（或动态数组）vector，双端队列deque，链表list，前向链表（单向链表）forward_list
-* 2. 有序关联容器Associative containers：集合set，映射map
-* 3. 无序关联容器Unordered containers：无序集合unordered_set，无序映射unordered_map
-* 4. 容器适配器Container adapters：栈stack，队列queue和优先队列priority_queue  
+	* 2. 有序关联容器Associative containers：集合set，映射map
+	* 3. 无序关联容器Unordered containers：无序集合unordered_set，无序映射unordered_map
+	* 4. 容器适配器Container adapters：栈stack，队列queue和优先队列priority_queue  
 ![](/diagrams/NOIP%2007%20STL%20Container%20Types.png)  
 图片来自：Josuttis, N. M. (2015). The C standard library: A tutorial and reference. Upper Saddle River, NJ: Addison-Wesley.  
 2. 迭代器Iterator：用于读取容器中元素的工具，作用类似于指针；  

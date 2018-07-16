@@ -2,8 +2,8 @@ NOIP 07 普及组数据结构，STL容器（未完成）
 ======
 
 |Author|杜博识Dubos|
-|---|---
-|E-mail|dubos@foxmail.com
+|---|---|
+|E-mail|dubos@foxmail.com|
 
 ------
 	以《CCF中学生程序设计基础篇》第6章、第9章为主；

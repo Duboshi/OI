@@ -6,7 +6,6 @@ NOIP 07 c 树，STL关联容器（未完成）
 |E-mail|dubos@foxmail.com|
 ------
 
-## 树
 * 树，二叉树
 * 集合set
 	* 《入》P112-113

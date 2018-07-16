@@ -6,14 +6,7 @@ NOIP 07 普及组数据结构，STL容器（未完成）
 |E-mail|dubos@foxmail.com|
 
 ------  
-<!DOCTYPE html>
-<html>
-<body>
-
-<p>This is a <u>parragraph</u>.</p>
-
-</body>
-</html>
+This is a <u>parragraph</u>.
 
 	以《CCF中学生程序设计基础篇》第6章、第9章为主；
 	以《算法竞赛入门经典》第5.2、6.1、6.2节和《新标准C++程序设计教程》为辅；

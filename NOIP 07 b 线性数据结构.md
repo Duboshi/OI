@@ -25,19 +25,82 @@ NOIP 07 b 线性数据结构，STL顺序容器和容器适配器（未完成）
 		return 0;
 	}
 	```
+	
 * 顺序表：r《基》P128-130 
+	```cpp
+	#include<iostream>
+
+	int main() 
+	{
+		return 0;
+	}
+	```
+	
 * 链表list
 	* r《基》P130-135 
 	* 《入》P143-148，但是这两本书都没有用STL list的例题
+	```cpp
+	#include<iostream>
+
+	int main() 
+	{
+		return 0;
+	}
+	```
+	
 * 队列queue
 	* r《基》P138-141，P233例9.3
 	* 《入》P117-119，例5-6 
+	```cpp
+	#include<iostream>
+
+	int main() 
+	{
+		return 0;
+	}
+	```
+	
 * 双端队列deque
 	* 《入》P139例6-1
+	```cpp
+	#include<iostream>
+
+	int main() 
+	{
+		return 0;
+	}
+	```
+	
 * 优先队列priority_queue
 	* 《入》P119-120，例5-7 
+	```cpp
+	#include<iostream>
+
+	int main() 
+	{
+		return 0;
+	}
+	```
+	
 * 向量（或称动态数组）vector
 	* 《基》P234-235、例9.4
 	* 《入》P109-111
+	```cpp
+	#include<iostream>
+
+	int main() 
+	{
+		return 0;
+	}
+	```
+	
 * 栈stack
 	* 《入》P115-117
+	```cpp
+	#include<iostream>
+
+	int main() 
+	{
+		return 0;
+	}
+	```

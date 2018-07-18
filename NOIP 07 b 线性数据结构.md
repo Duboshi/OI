@@ -17,14 +17,14 @@ NOIP 07 b 线性数据结构，STL顺序容器和容器适配器（未完成）
 《基》P126-127  
 * 数组：之前讲过，现在就不重复了
 * 向量（或动态数组）vector
-```cpp
-#include<iostream>
+	```cpp
+	#include<iostream>
 
-int main() 
-{
-	return 0;
-}
-```
+	int main() 
+	{
+		return 0;
+	}
+	```
 * 顺序表：r《基》P128-130 
 * 链表list
 	* r《基》P130-135 

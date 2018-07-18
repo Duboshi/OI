@@ -13,11 +13,9 @@ NOIP 07 b 线性数据结构，STL顺序容器和容器适配器（未完成）
 
 普及组线性数据结构主要有：
 * 顺序表；
-* 数组，向量，链表，双端队列（这4个可由STL线性容器实现）；
-* 栈，队列，优先队列（这3个可由STL容器适配器实现）。
-
-顺序容器Sequence containers：数组array，向量（或动态数组）vector，双端队列deque，链表list，前向链表（单向链表）forward_list  
-容器适配器Container adapters：栈stack，队列queue和优先队列priority_queue  
+* 数组array，向量（或动态数组）vector，链表list，双端队列deque，前向链表（或单向链表）forward_list（后4个可直接使用STL线性容器）；
+* 栈stack，队列queue，优先队列priority_queue（这3个可直接使用STL容器适配器）。
+我们学习每种数据结构都是先了解其功能， 然后用已经掌握的C++编程知识实现，最后学习如何直接使用STL相应容器。
 
 《基》P126-127  
 * 数组：之前讲过，现在就不重复了

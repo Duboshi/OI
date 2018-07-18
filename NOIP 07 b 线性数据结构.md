@@ -11,8 +11,8 @@ NOIP 07 b 线性数据结构，STL顺序容器和容器适配器（未完成）
 
 ------  
 
-顺序容器Sequence containers：数组array，向量（或动态数组）vector，双端队列deque，链表list，前向链表（单向链表）forward_list
-容器适配器Container adapters：栈stack，队列queue和优先队列priority_queue
+顺序容器Sequence containers：数组array，向量（或动态数组）vector，双端队列deque，链表list，前向链表（单向链表）forward_list  
+容器适配器Container adapters：栈stack，队列queue和优先队列priority_queue  
 
 《基》P126-127  
 * 数组：之前讲过，现在就不重复了

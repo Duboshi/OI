@@ -105,6 +105,6 @@ OI (Olympiads in Informatics)，国内译作`信息学竞赛`（或`信息学奥
 [NOIP 03 f]:/NOIP%2003%20f%20高精度计算.cpp
 [NOIP 04]:/NOIP%2004%20指针与引用.cpp
 [NOIP 05 a]:/NOIP%2005%20a%20函数.cpp
-[NOIP 07 a]:/NOIP%2008%20a%20普及组数据结构.md
+[NOIP 08 a]://NOIP%2008%20a%20普及组数据结构.md
 [MO]:https://blog.anudeep2011.com/mos-algorithm/
 [莫]:https://www.zhihu.com/question/27316467

@@ -16,9 +16,9 @@ C++的标准模板库（Standard Template Library, 下面简称`STL`）是一些
 ![](/diagrams/NOIP%2007%20STL%20Components.JPG)  
 图片来自：Josuttis, N. M. (2015). The C++ standard library: A tutorial and reference. Upper Saddle River, NJ: Addison-Wesley.  
 1. **容器Container**：用于存放数据的类模板，例如链表、双端队列等。容器可以分成4大类：
-	* 1. 顺序容器Sequence containers：数组array，向量（或动态数组）vector，双端队列deque，链表list，前向链表（单向链表）forward_list
+	* 1. 顺序容器Sequence containers：数组array，向量（或动态数组）vector，链表list，前向链表（单向链表）forward_list，双端队列deque  
 	* 2. 容器适配器Container adapters：栈stack，队列queue和优先队列priority_queue  
-	* 3. 有序关联容器Associative containers：集合set，映射map
+	* 3. 有序关联容器Associative containers：集合set，映射map  
 	* 4. 无序关联容器Unordered containers：无序集合unordered_set，无序映射unordered_map  
 	* 我们用顺序容器和容器适配器实现线性数据结构，用关联容器实现树形数据结构  
 2. **迭代器Iterator**：用于读取容器中元素的工具，作用类似于指针；  

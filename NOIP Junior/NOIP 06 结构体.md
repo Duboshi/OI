@@ -6,7 +6,7 @@ NOIP 06 结构体
 |E-mail|dubos@foxmail.com|
 
 ------  
-正文  
+  
 ------  
 	【参考资料】
 	《CCF中学生程序设计基础篇》第3章；

@@ -1,4 +1,4 @@
-NOIP 06 结构体
+NOIP 06 结构体（未完成）
 ======
   
 |Author|杜博识Dubos|

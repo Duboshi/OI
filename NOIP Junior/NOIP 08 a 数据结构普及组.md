@@ -1,4 +1,4 @@
-NOIP 08 a 普及组数据结构和STL容器简介
+NOIP 08 a 数据结构普及组和STL容器简介
 ======
 
 |Author|杜博识Dubos|

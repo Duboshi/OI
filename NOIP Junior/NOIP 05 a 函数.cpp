@@ -36,7 +36,7 @@ int main()
 						//main函数没有参数，所以参数列表为空 
 			{
 				//函数体就是我们写的这些东西 
-			}
+			} 
 			【注意】我们设定main函数返回值为0，所以每次执行程序都会在最后看到
 			Process exited after *** seconds with return value 0，但如果程序运行
 			发生了错误，就会看到这行字最后return value变成其他数字。 

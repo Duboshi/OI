@@ -95,18 +95,18 @@ OI (Olympiads in Informatics)，国内译作`信息学竞赛`（或`信息学奥
 
 信息学竞赛跟数理化生竞赛不同的是，做题可以用在线测评系统（Online Judge）评分:100:。除了公平、高效之外，还有一个好处是让用户看到许多其他用户的水平，这样就可以了解到其他学校、城市、省份乃至国家的选手:raising_hand:。当然OJ平台也有很多，有的主要用于学习阶段刷题，有的是学成之后去与高手切磋的，不同学习阶段用不同的平台。关于Online Judge的更多内容见[《OJ简介》](/NOIP%2000%20OJ简介.md)
 
-[NOIP 01 a]:/NOIP%2001%20a%20C%2B%2B入门.cpp
-[NOIP 01 b]:/NOIP%2001%20b%20文件.md
-[NOIP 02]:/NOIP%2002%20程序的控制结构.cpp
-[NOIP 03 a]:/NOIP%2003%20a%20一维数组.cpp
-[NOIP 03 b]:/NOIP%2003%20b%20二维数组.cpp
-[NOIP 03 c]:/NOIP%2003%20c%20字符数组.cpp
-[NOIP 03 d]:/NOIP%2003%20d%20string字符串.cpp
-[NOIP 03 f]:/NOIP%2003%20f%20高精度计算.cpp
-[NOIP 04]:/NOIP%2004%20指针与引用.cpp
-[NOIP 05 a]:/NOIP%2005%20a%20函数.cpp
-[NOIP 08 a]:/NOIP%2008%20a%20普及组数据结构.md
-[NOIP 08 b]:/NOIP%2008%20b%20线性数据结构.md
-[NOIP 08 c]:/NOIP%2008%20c%20树.md
+[NOIP 01 a]:/NOIP%20/JuniorNOIP%2001%20a%20C%2B%2B入门.cpp
+[NOIP 01 b]:/NOIP%20/NOIP%2001%20b%20文件.md
+[NOIP 02]:/NOIP%20/NOIP%2002%20程序的控制结构.cpp
+[NOIP 03 a]:/NOIP%20/NOIP%2003%20a%20一维数组.cpp
+[NOIP 03 b]:/NOIP%20/NOIP%2003%20b%20二维数组.cpp
+[NOIP 03 c]:/NOIP%20/NOIP%2003%20c%20字符数组.cpp
+[NOIP 03 d]:/NOIP%20/NOIP%2003%20d%20string字符串.cpp
+[NOIP 03 f]:/NOIP%20/NOIP%2003%20f%20高精度计算.cpp
+[NOIP 04]:/NOIP%20/NOIP%2004%20指针与引用.cpp
+[NOIP 05 a]:/NOIP%20/NOIP%2005%20a%20函数.cpp
+[NOIP 08 a]:/NOIP%20/NOIP%2008%20a%20普及组数据结构.md
+[NOIP 08 b]:/NOIP%20/NOIP%2008%20b%20线性数据结构.md
+[NOIP 08 c]:/NOIP%20/NOIP%2008%20c%20树.md
 [MO]:https://blog.anudeep2011.com/mos-algorithm/
 [莫]:https://www.zhihu.com/question/27316467

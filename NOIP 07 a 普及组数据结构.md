@@ -5,16 +5,24 @@ NOIP 07 a 普及组数据结构和STL容器简介
 |---|---|
 |E-mail|dubos@foxmail.com|
 
-	以《CCF中学生程序设计基础篇》第6章、第9章为主；
-	以《算法竞赛入门经典》第5.2、6.1、6.2节和《新标准C++程序设计教程》为辅；
-	以 C++ Primer 第9章、第11章和The C standard library第6-12章为参考。
+	以《CCF中学生程序设计基础篇》第6和9章为主；
+	以《算法竞赛入门经典》第5.2、6.1、6.2节和《新标准C++程序设计教程》第19章为辅；
+	以 《算法导论》第1、第10章，C++ Primer 第9、11章，The C++ standard library第6-12章和《数据结构》（邓俊辉）为参考。  
 ------  
 ## 简介  
 
-普及组数据结构主要有线性数据结构、树、图三个部分，由于图的内容在后续课程会逐渐占据相当大的比例，所以我们把图论单列为一章，本章只讲**线性数据机构**和**树**。我们会运用已有的C++编程知识实现这些数据结构，虽然实现的原理我们应该掌握，但实际参加比赛或者日常编写程序时，我们直接使用STL模板，不用每次都重复“造轮子”。  
+数据结构是指数据的存储和组织形式。依据不同的数据实际情况，以及使用数据的目的，我们可以选用乃至建立不同的数据结构。  
+例如：
+* 我们要把班级中的同学按照身高排序，可以使用数组arrya，数组就是一种我们已经接触过的数据结构；教师办公室中多台电脑公用一台打印机时，打印机会按照各个电脑提交打印任务的顺序依次处理，这时候打印机中的任务队列使用的数据结构是队列list，有先进先出(first-in-first-out, FIFO)的特性；浏览网页时我们只要点击“后退”按钮，浏览器就会退回前一个显示过的页面，浏览器中存储历史记录的数据结构是栈stack，有后进先出(last-ink-first-out, LIFO)的特性。这些数据结构都属于线性数据结构；
+* 
+* 
+
+普及组数据结构主要有**线性数据结构、树、图**三个部分，由于图的内容在后续课程会逐渐占据相当大的比例，所以我们把图论单列为一章，本章只讲**线性数据机构**和**树**。我们会运用已有的C++编程知识实现这些数据结构，虽然实现的原理我们应该掌握，但实际参加比赛或者日常编写程序时，我们直接使用STL模板，不用每次都重复“造轮子”。  
+
 C++的标准模板库（Standard Template Library, 下面简称`STL`）是一些常用数据结构和算法模板的集合，主要由Alexander Stepanov和David Musser开发，于1998年被添加进C++标准，目前NOIP、NOI、IOI、ACM-ICPC、TopCoder、Codeforces、Goolge Code Jam、Facebook Hacker Cup等各类算法竞赛中都允许使用STL。STL中有三个基本概念，容器、迭代器和算法：  
 ![](/diagrams/NOIP%2007%20STL%20Components.JPG)  
-图片来自：Josuttis, N. M. (2015). The C++ standard library: A tutorial and reference. Upper Saddle River, NJ: Addison-Wesley.  
+图片来自：Josuttis, N. M. (2015). The C++ standard library: A tutorial and reference. Upper Saddle River, NJ: Addison-Wesley. 
+
 1. **容器Container**：用于存放数据的类模板，例如链表、双端队列等。容器可以分成4大类：
 	* 1. 顺序容器Sequence containers：数组array，向量（或动态数组）vector，链表list，前向链表（单向链表）forward_list，双端队列deque  
 	* 2. 容器适配器Container adapters：栈stack，队列queue和优先队列priority_queue  

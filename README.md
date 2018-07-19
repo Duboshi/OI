@@ -106,7 +106,7 @@ OI (Olympiads in Informatics)，国内译作`信息学竞赛`（或`信息学奥
 [NOIP 04]:/NOIP%20Junior/NOIP%2004%20指针与引用.cpp
 [NOIP 05 a]:/NOIP%20Junior/NOIP%2005%20a%20函数.cpp
 [NOIP 06]:/NOIP%20Junior/NOIP%2006%20结构体.md
-[NOIP 07 a]:/NOIP%20Junior/NOIP%2007%20算法普及组.md
+[NOIP 07 a]:/NOIP%20Junior/NOIP%2007%20a%20算法普及组.md
 [NOIP 08 a]:/NOIP%20Junior/NOIP%2008%20a%20普及组数据结构.md
 [NOIP 08 b]:/NOIP%20Junior/NOIP%2008%20b%20线性数据结构.md
 [NOIP 08 c]:/NOIP%20Junior/NOIP%2008%20c%20树.md

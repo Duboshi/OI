@@ -11,7 +11,7 @@ NOIP 07 a 普及组数据结构和STL容器简介
 	《数据结构》（邓俊辉）第1-6章；
 	 Introduction to Algorithms 第1、第10章；
 	 C++ Primer 第9、11章；
-	 The C++ standard library第6-12章。
+	 The C++ standard library 第6-12章。
 	  
 ------  
 

@@ -5,7 +5,7 @@ NOIP 08 b 线性数据结构，STL顺序容器和容器适配器（未完成）
 |---|---|
 |E-mail|dubos@foxmail.com|
 
-本文是NOIP 08的一部分，目录见[NOIP 08 a普及组数据结构和STL容器简介](/NOIP%2008%20a%20普及组数据结构.md)。
+本文是NOIP 08的一部分，目录见[NOIP 08 a普及组数据结构和STL容器简介](/NOIP Junior/NOIP%2008%20a%20普及组数据结构.md)。
 
 ------  
 

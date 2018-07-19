@@ -10,8 +10,8 @@ NOIP 08 a 数据结构普及组和STL容器简介
 ## 数据结构简介
 
 1968年Donald E. Knuth的*The Art of Computer Programming*（简称TAOCP）第一卷Volume 1: Fundamental Algorithms出版，书中详细讨论了数据的逻辑结构和存储结构，开创了数据结构的最初体系（他在书中成为信息结构Information structure）。
-![](/diagrams/NOIP%2008%20a%20KnuthAtOpenContentAlliance.jpg)  
- Knuth in 2005 (by Jacob Appelbaum)
+<center>![](/diagrams/NOIP%2008%20a%20KnuthAtOpenContentAlliance.jpg)</center>  
+<center>Knuth in 2005 (by Jacob Appelbaum)</center>
 
 **数据结构Data structure**是指数据的存储和组织形式。依据不同的数据实际情况以及使用目的，我们可以选用乃至建立不同的数据结构。例如：  
 * 要把班级同学按照身高排序可以使用数组array，数组就是一种我们已经接触过的数据结构；多台电脑共用一台打印机时，打印机会按照各台电脑提交打印任务的先后顺序处理，这时候使用的数据结构是队列list，有先进先出(first-in-first-out, FIFO)的特性；浏览网页时我们不断点击“后退”按钮，浏览器就会不断逆向显示之前显示过的页面，这时存储历史记录的数据结构是栈stack，有后进先出(last-ink-first-out, LIFO)的特性。这些数据结构都属于**线性数据结构**；  

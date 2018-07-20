@@ -29,7 +29,7 @@ Knuth in 2005 (by Jacob Appelbaum)
 
 ## STL简介
 
-C++的标准模板库（Standard Template Library, 下面简称`STL`）是一些常用数据结构和算法模板的集合，主要由Alexander Stepanov和David Musser开发，于1998年被添加进C++标准，目前NOIP、NOI、IOI、ACM-ICPC、TopCoder、Codeforces、Goolge Code Jam、Facebook Hacker Cup等各类算法竞赛中都允许使用STL。STL中有三个基本概念，容器、迭代器和算法：  
+C++的标准模板库（Standard Template Library, 下面简称`STL`）是一些常用数据结构和算法模板的集合，主要由Alexander Stepanov和David Musser开发，于1998年被添加进C++标准，目前NOIP、NOI、IOI、ACM-ICPC、TopCoder、Codeforces、Google Code Jam、Facebook Hacker Cup等各类算法竞赛中都允许使用STL。STL中有三个基本概念，容器、迭代器和算法：  
 ![](/diagrams/NOIP%2007%20STL%20Components.JPG)  
 图片来自：Josuttis, N. M. (2015). The C++ standard library: A tutorial and reference. Upper Saddle River, NJ: Addison-Wesley. 
 
@@ -38,7 +38,6 @@ C++的标准模板库（Standard Template Library, 下面简称`STL`）是一些
 	* 2. 容器适配器Container adapters：栈stack，队列queue和优先队列priority_queue  
 	* 3. 有序关联容器Associative containers：集合set，映射map  
 	* 4. 无序关联容器Unordered containers：无序集合unordered_set，无序映射unordered_map  
-	* 我们用顺序容器和容器适配器实现线性数据结构，用关联容器实现树形数据结构  
 2. **迭代器Iterator**：用于读取容器中元素的工具，作用类似于指针；  
 3. **算法Algorithms**：用来操作容器中元素的函数模板，例如排序、查找等。  
 ![](/diagrams/NOIP%2007%20STL%20Container%20Types.png)  

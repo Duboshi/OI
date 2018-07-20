@@ -5,7 +5,7 @@ NOIP 08 c 树，STL关联容器（未完成）
 |---|---|
 |E-mail|dubos@foxmail.com|
 
-本文是[NOIP 08 a 普及组数据结构和STL容器简介](/NOIP%20Junior/NOIP%2008%20a%20数据结构普及组.md)的一部分。  
+本文是[NOIP 08 a 普及组数据结构和STL容器](/NOIP%20Junior/NOIP%2008%20a%20数据结构普及组.md)正文的一部分。  
 
 ------  
 

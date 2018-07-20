@@ -5,18 +5,29 @@ NOIP 08 b 线性数据结构，STL顺序容器和容器适配器（未完成）
 |---|---|
 |E-mail|dubos@foxmail.com|
 
-本文是[NOIP 08 a 普及组数据结构和STL容器简介](/NOIP%20Junior/NOIP%2008%20a%20数据结构普及组.md)的一部分。  
+本文是[NOIP 08 a 普及组数据结构和STL容器简介](/NOIP%20Junior/NOIP%2008%20a%20数据结构普及组.md)正文的一部分。  
 
 ------  
 
-普及组线性数据结构主要有：
-* 顺序表；
-* 数组array，向量（或动态数组）vector，链表list，前向链表（或单向链表）forward_list（后4个可直接使用STL线性容器），双端队列deque；
-* 栈stack，队列queue，优先队列priority_queue（这3个可直接使用STL容器适配器）。  
-我们学习每种数据结构都是先了解其功能及原理， 然后用已经掌握的C++编程知识实现，最后学习如何直接使用STL相应容器。
+线性数据结构的特点是，在数据元素的非空有限集中：
+* 存在唯一一个“第一个first”数据元素；
+* 存在唯一一个“最后一个last”数据元素；
+* 每个数据元素（first数据元素可以例外）只有一个直接前驱immediate predecessor；
+* 每个数据元素（last数据元素可以例外）只有一个直接后继immediate successor。  
 
-《基》P126-127  
+我们学习每种数据结构都是先了解其功能， 然后用已有C++编程知识实现，最后学习如何直接使用STL相应容器。
+
 * 数组：之前讲过，现在就不重复了
+* 顺序表：r《基》P128-130 
+	```cpp
+	#include<iostream>
+
+	int main() 
+	{
+		return 0;
+	}
+	```	
+
 * 向量（或动态数组）vector
 	```cpp
 	#include<iostream>
@@ -26,17 +37,7 @@ NOIP 08 b 线性数据结构，STL顺序容器和容器适配器（未完成）
 		return 0;
 	}
 	```
-	
-* 顺序表：r《基》P128-130 
-	```cpp
-	#include<iostream>
 
-	int main() 
-	{
-		return 0;
-	}
-	```
-	
 * 链表list
 	* r《基》P130-135 
 	* 《入》P143-148，但是这两本书都没有用STL list的例题
@@ -112,7 +113,8 @@ NOIP 08 b 线性数据结构，STL顺序容器和容器适配器（未完成）
 		《CCF中学生程序设计基础篇》第6和9章；
 		《算法竞赛入门经典》第5.2、6.1、6.2节；
 		《新标准C++程序设计教程》第19章；
-		《数据结构》（邓俊辉）第1-6章；
+		《数据结构（C语言）》（严蔚敏，吴伟民）第1-6章；
+		《数据结构（C++语言）》（邓俊辉）第1-6章；
 		Competitive Programming 3 第2章；
 		Introduction to Algorithms 第1、第10章；
 		C++ Primer 第9、11章；

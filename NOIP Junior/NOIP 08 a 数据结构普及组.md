@@ -9,7 +9,7 @@ NOIP 08 a 数据结构普及组和STL容器
 
 ## 数据结构简介
 
-1968年Donald E. Knuth的*The Art of Computer Programming*（简称TAOCP）第一卷Volume 1: Fundamental Algorithms出版，书中详细讨论了数据的逻辑结构和存储结构，开创了数据结构（他在书中称为信息结构Information structure）的最初体系。从那时起《数据结构》开始成为一门独立的课程，至今已经是计算机专业的核心课程之一。  
+1968年Donald E. Knuth（高德纳）[^1]的*The Art of Computer Programming*（简称TAOCP）第一卷Volume 1: Fundamental Algorithms出版，书中详细讨论了数据的逻辑结构和存储结构，开创了数据结构（他在书中称为信息结构Information structure）的最初体系。从那时起《数据结构》开始成为一门独立的课程，至今已经是计算机专业的核心课程之一。  
 ![](/diagrams/NOIP%2008%20a%20KnuthAtOpenContentAlliance.jpg)  
 Knuth in 2005 (by Jacob Appelbaum)  
 
@@ -60,3 +60,5 @@ C++的标准模板库（Standard Template Library, 下面简称`STL`）是一些
 		Introduction to Algorithms 第1、第10章；
 		C++ Primer 第9、11章；
 		The C++ standard library 第6-12章。
+
+[^1]: Donald Knuth

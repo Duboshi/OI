@@ -35,7 +35,7 @@ NOIP 06 结构体（未完成）
 	```
 	例如：
 	```cpp
-	struct student{					//结构体名为student
+	struct student{				//结构体名为student
 		string name;  
 		int chinese, math, english;  
 		int total;

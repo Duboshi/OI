@@ -26,31 +26,29 @@ NOIP 01.b 文件（未完成）
 		return 0;
 	}
 	```
+	* 例3  
+		* 输入（filename.in）:一个整数
+		* 输出（filename.out）:该整数的平方   
+		```cpp
+			#include <cstdio>
+			#include <iostream>
 
-* 例3  
-	* 输入（filename.in）:一个整数
-	* 输出（filename.out）:该整数的平方   
-		
-```cpp
-	#include <cstdio>
-	#include <iostream>
+			using namespace std;
 
-	using namespace std;
+			int main ()
+			{
+				freopen("filename.in", "r", stdin);
+				freopen("filename.out", "w", stdout);
 
-	int main ()
-	{
-		freopen("filename.in", "r", stdin);
-		freopen("filename.out", "w", stdout);
+				int n;
+				scanf("%d", &n);
+				printf("%d", n*n);
+				return 0;
+			}
+			//输入输出文件与源代码在同一个文件夹里：可以自己新建一个文本文档，里面写一个整数，
+			//然后把拓展名改为.in，之后运行代码，就会发现同一个文件夹里多了一个.out文件。
 
-		int n;
-		scanf("%d", &n);
-		printf("%d", n*n);
-		return 0;
-	}
-	//输入输出文件与源代码在同一个文件夹里：可以自己新建一个文本文档，里面写一个整数，
-	//然后把拓展名改为.in，之后运行代码，就会发现同一个文件夹里多了一个.out文件。
-
-```
+		```
 
 * **流文件方法：fstream + fin/fout**  
 	* 这是第一种做饭  

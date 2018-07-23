@@ -25,7 +25,7 @@ NOIP 01.b 文件（未完成）
 			return 0;
 		}
 		```  
-	* 在[2010年NOIP](http://www.noi.cn/noi-news/noi/329-noip2010)之前，国内信息学竞赛不允许使用这种方法，现在有些更新不及时的资料里还有“禁止使用重定向”的字样。[2010年主办方“应广大指导教师与选手的要求”解除了对文件重定向方法的限制](http://www.noi.cn/noi-news/noi/331-freopen)。
+	* 在[2010年NOIP之前](http://www.noi.cn/noi-news/noi/331-freopen)，国内信息学竞赛不允许使用这种方法，现在有些更新不及时的资料里还有“禁止使用重定向”的字样。[2010年主办方“应广大指导教师与选手的要求”解除了对文件重定向方法的限制](http://www.noi.cn/noi-news/noi/329-noip2010)。
 	* 例1  
 		* 输入（filename.in）:一个整数
 		* 输出（filename.out）:该整数的平方   

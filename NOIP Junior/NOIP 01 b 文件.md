@@ -11,8 +11,8 @@ NOIP 01.b 文件（未完成）
 
 由于信息学竞赛的输入数据有时很大，所以数据文件的读取效率非常重要。我们下面介绍的是三种效率较高的文件输入输出方式：  
 
-* **文件重定向方法：freopen + scanf/printf**
-	* 这是第一种做法，语句非常简单，在main函数前两行加入freopen语句即可：
+* **一、文件重定向方法：freopen + scanf/printf**
+	* 这是最简单的方法，在main函数前两行加入freopen语句即可：
 		```cpp
 		#include <cstdio> //freopen是cstdio库函数
 
@@ -25,8 +25,8 @@ NOIP 01.b 文件（未完成）
 			return 0;
 		}
 		```  
-		
-	* 例3  
+	* 在[2010年NOIP](http://www.noi.cn/noi-news/noi/329-noip2010)之前，国内信息学竞赛不允许使用这种方法，现在有些更新不及时的资料里还有“禁止使用重定向”的字样。[2010年主办方“应广大指导教师与选手的要求”解除了对文件重定向方法的限制](http://www.noi.cn/noi-news/noi/331-freopen)。
+	* 例1  
 		* 输入（filename.in）:一个整数
 		* 输出（filename.out）:该整数的平方   
 		```cpp
@@ -47,7 +47,7 @@ NOIP 01.b 文件（未完成）
 		```
 
 * **流文件方法：fstream + fin/fout**  
-	* 这是第一种做饭  
+	* 这是第二种做法，未完成  
 	
 * **文件指针方法：FILE * + fscanf/fprintf**
-	* 这是第二种做法
+	* 这是第二种做法，

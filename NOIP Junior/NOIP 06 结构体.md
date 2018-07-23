@@ -9,19 +9,39 @@ NOIP 06 结构体（未完成）
 
 ## 结构体的定义
 * 定义
-  * 定义
-  ```cpp
-  struct 结构体名 {
-    成员表;
-    成员函数;
-  } 结构体变量表;
-  ```
-  或者
-  ```cpp
-  struct 结构体名 {
-  	
-  }
-  ```
+	* 第一种
+  
+	```cpp
+	struct 结构体名 {
+	成员表;
+	成员函数;
+	} 结构体变量表;
+	```
+	例如：
+	```cpp
+	struct student {				//结构体名为student
+		string name;  
+		int chinese, math, english;  
+		int total;
+	} students [110];				//变量是包含110个student的数组students
+	```
+	* 第二种
+	```cpp
+	struct 结构体名 {  
+	成员表;  
+	成员函数;
+	};
+	结构体名 结构体变量表
+	```
+	例如：
+	```cpp
+	struct student{					//结构体名为student
+		string name;  
+		int chinese, math, english;  
+		int total;
+	};
+	student students [110];			//变量是包含110个student的数组students
+	```
   
 
 ###### 参考资料

@@ -54,11 +54,11 @@ NOIP 08 b 线性数据结构，STL顺序容器和容器适配器（未完成）
 >	输入格式：  
 >>	第1行n表示序列长度（0 < n < 1001）；  
 >>	第2行输入n个空格隔开的整数，为给定长度为n的整数序列；  
->>	第3行输入m，表示对整数序列进行m个操作；  
+>>	第3行输入m，表示对整数序列进行m个操作（0 < m < 1001）；  
 >>	第4行至第m+3行，每行输入一个操作，共m行输入m个操作。  
 >
 >	输出格式：  
->>	对于操作1（访问）输出对应的结果，每行输出一个数。  
+>>	对于操作1（访问）输出对应的结果，每行输出一个数  
 >
 >	输入样例：  
 >>	5  
@@ -75,12 +75,50 @@ NOIP 08 b 线性数据结构，STL顺序容器和容器适配器（未完成）
 >>	7  
 >>	23  
 	
-	
 	```cpp
-	#include<iostream>
+	/*	NOI题库 1109 维护序列（顺序表解法）*/
+	#include <iostream>
+	using namespace std;
 
-	int main() 
+	int m, n, a [2001];			//原数组最长1000，操作最多使长度增加1000（插入），
+								//所以新数组最长2000。 
+	void ins (int i, int v)	//在第i位元素之前插入新元素，值为v； 
 	{
+		for (int k=n; k>=i; k--)
+			a[k+1] = a[k];
+		a[i] = v;
+		n++;
+	}
+
+	void del (int i)			//删除第i位元素 
+	{
+		for (int k=i+1; k<=n; k++)
+			a[k-1] = a[k];
+		n--;
+	}
+
+	int main ()
+	{
+		//输入
+		cin >> n;
+		for (int k=1; k<=n; k++)
+			cin >> a[k];
+		cin >> m;
+		for (int k=1; k<=m; k++)
+		{
+			int type, i, v;
+			cin >> type >> i;
+			if (type==1)
+				cout << a[i] <<endl;
+			if (type==2)
+			{
+				cin >> v;
+				ins(i, v);
+			}
+			if (type==3)
+				del(i);
+		} 
+
 		return 0;
 	}
 	```	

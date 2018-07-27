@@ -81,10 +81,12 @@ NOIP 08 b 线性数据结构，STL顺序容器和容器适配器（未完成）
 
 	#include <iostream>
 	using namespace std;
-
-	int m, n, a [2001];			//原数组最长1000，操作最多使长度增加1000（插入），
-								//所以新数组最长2000。 
-	void ins (int i, int v)	//在第i位元素之前插入新元素，值为v； 
+	
+	//原数组最长1000，操作最多使长度增加1000（插入），所以新数组最长2000
+	int m, n, a [2001];			
+ 	
+	//在第i位元素之前插入新元素，值为v
+	void ins (int i, int v)	 
 	{
 		for (int k=n; k>=i; k--)
 			a[k+1] = a[k];
@@ -92,7 +94,8 @@ NOIP 08 b 线性数据结构，STL顺序容器和容器适配器（未完成）
 		n++;
 	}
 
-	void del (int i)			//删除第i位元素 
+	//删除第i位元素
+	void del (int i) 
 	{
 		for (int k=i+1; k<=n; k++)
 			a[k-1] = a[k];
@@ -101,11 +104,11 @@ NOIP 08 b 线性数据结构，STL顺序容器和容器适配器（未完成）
 
 	int main ()
 	{
-		//输入
 		cin >> n;
 		for (int k=1; k<=n; k++)
 			cin >> a[k];
 		cin >> m;
+		
 		for (int k=1; k<=m; k++)
 		{
 			int type, i, v;

@@ -108,7 +108,7 @@ C++的标准模板库（Standard Template Library, 下面简称`STL`）是一些
 		vector<int>::reverse_iterator r; //建立一个反向迭代器i，访问vector <int>容器中的元素
 		```
 		
-	4. **常量反向迭代器**：不能修改其指向的元素，同理要注意与**反向迭代器**的区别，这里不赘述
+	4. **常量反向迭代器**：不能修改其指向的元素，同理要注意与**反向迭代器常量**的区别，这里不赘述
 		
 		```cpp
 		vector<int>::const_reverse_iterator r;

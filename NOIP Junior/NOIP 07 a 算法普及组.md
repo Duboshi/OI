@@ -69,7 +69,6 @@ CP3第3.4节（Station Balance，Watering Grass，Dragon of Loowater）
 可以尝试讲一下，不行的话就还是放到线段树再说  
 《李煜东》0X06节（RMQ问题与ST算法，Genius ACM）
 
-------  
 ###### 参考资料
 > 《CCF中学生程序设计基础篇》第7章；
 > 《算法竞赛入门经典》第7、8章；

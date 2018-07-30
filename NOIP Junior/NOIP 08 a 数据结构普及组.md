@@ -34,18 +34,34 @@ C++的标准模板库（Standard Template Library, 下面简称`STL`）是一些
 图片来自：Josuttis, N. M. (2015). The C++ standard library: A tutorial and reference. Upper Saddle River, NJ: Addison-Wesley. 
 
 1. **容器Container**：用于存放数据的类模板，例如链表、双端队列等。容器可以分成4大类：
-	1. **顺序容器Sequence containers**：数组array，向量（或动态数组）vector，链表list，前向链表（单向链表）forward_list，双端队列deque  
+	1. **顺序容器Sequence containers**：数组array，向量（或称动态数组）vector，链表list，前向链表（单向链表）forward_list，双端队列deque  
+	```cpp
+	vector <int> a; //这是建立一个容器对象a，它的容器类是vector <int>，即元素为int类型的向量（或称动态数组）
+	```  
 	2. **容器适配器Container adapters**：栈stack，队列queue和优先队列priority_queue  
 	3. **有序关联容器Associative containers**：集合set，映射map  
 	4. **无序关联容器Unordered containers**：无序集合unordered_set，无序映射unordered_map  
 ![](/diagrams/NOIP%2007%20STL%20Container%20Types.png)  
 图片来自：Josuttis, N. M. (2015). The C++ standard library: A tutorial and reference. Upper Saddle River, NJ: Addison-Wesley.  
 
-2. **迭代器Iterator**：用于访问容器中元素的工具。迭代器是个变量，指向容器中的某个元素，作用类似于指针。迭代器的定义有4种：
-	1. **正向迭代器**：  
-	2. **常量正向迭代器**：  
-	3. **反向迭代器**：  
-	4. **常量反向迭代器**：  
+2. **迭代器Iterator**：用于访问容器中元素的工具。迭代器是个变量，指向容器中的某个元素，作用类似于指针，```* 迭代器```就表示迭代器指向的元素。迭代器按照定义方式可以分为以下4种：
+	1. **正向迭代器**：能够修改其指向的元素，  
+	```cpp
+	容器类::iterator 迭代器名;  
+	//例如vector<int>::iterator i;中，迭代器i就是
+	```
+	2. **常量正向迭代器**：不能修改其指向的元素，  
+	```cpp
+	容器类::const_iterator 迭代器名;
+	```
+	3. **反向迭代器**：能够修改其指向的元素，  
+	```cpp
+	容器类::reversek_iterator 迭代器名;
+	```
+	4. **常量反向迭代器**：不能修改其指向的元素，  
+	```cpp
+	容器类::const_reverse_iterator 迭代器名;
+	```
 3. **算法Algorithms**：用来操作容器中元素的函数模板，例如排序、查找等。  
 
 ## 正文

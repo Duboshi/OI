@@ -57,6 +57,6 @@ C++的标准模板库（Standard Template Library, 下面简称`STL`）是一些
 > 《数据结构（C语言）》（严蔚敏，吴伟民）第1-6章；  
 > 《数据结构（C++语言）》（邓俊辉）第1-6章；  
 > Competitive Programming 3 第2章；  
-> Introduction to Algorithms 第1、第10章；  
+> Introduction to Algorithms 第1、10章；  
 > C++ Primer 第9、11章；  
 > The C++ standard library 第6-12章。  

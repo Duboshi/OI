@@ -75,21 +75,24 @@ C++的标准模板库（Standard Template Library, 下面简称`STL`）是一些
 		using namespace std;  
 
 		int main()
-		{  
-
+		{
 			vector <int> a; //建立一个元素为int类型的向量a
 			for (int n=0; n<5; ++n)
-				a.push_back(n); //为向量a赋值5个元素：{0, 1, 2, 3, 4}，push_back是vector库函数，在向量尾部添加元素
-
-			vector <int>::iterator i; //建立一个用于vector <int>向量的正向迭代器i
+				a.push_back(n);
+			//为向量a赋值5个元素：{0, 1, 2, 3, 4}，push_back是vector库函数，在向量尾部添加元素
+			
+			vector <int>::iterator i;
+			//建立一个用于vector <int>向量的正向迭代器i
 
 			for (i=a.begin(); i!=a.end(); ++i)
-				cout << *i << " "; //从前向后遍历向量a，输出i所指向的元素*i，结果是"0 1 2 3 4 "
+				cout << *i << " ";
 			cout << endl;
-
+			//从前向后遍历向量a，输出i所指向的元素*i，结果是"0 1 2 3 4 "
+			
 			for (i=a.end()-1; i!=a.begin()-1; --i)
-				cout << *i << " "; //从后向前遍历向量a，输出i所指向的元素*i，结果是"0 1 2 3 4 "
+				cout << *i << " ";
 			cout << endl;
+			//从后向前遍历向量a，输出i所指向的元素*i，结果是"4 3 2 1 0 "
 
 			return 0;
 		}

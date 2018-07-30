@@ -56,7 +56,7 @@ C++的标准模板库（Standard Template Library, 下面简称`STL`）是一些
 		//一定要注意下面前两个概念（常量正向迭代器 vs. 正向迭代器常量）的差别，第三个（正向迭代器）是作为对比
 		vector<int>::const_iterator i = a.begin(); //建立一个【常量正向迭代器】i，初始化赋值指向向量a的首位元素，之后可以访问vector <int>容器中的不同元素，但不能修改其指向的元素
 		const vector<int>::iterator j = a.begin(); //建立一个【正向迭代器常量】j，初始化赋值指向向量a的首位元素，之后不能访问vector <int>容器中的其他元素，但可以修改其指向的元素
-		vector<int>::iterator k = a.begin(); //建立一个【正向迭代器】k，初始化赋值指向向量a的首位元素，之后既能访问vector <int>容器中的其他元素，又可以修改其指向的元素
+		vector<int>::iterator k = a.begin(); //作为对比，建立一个【正向迭代器】k，初始化赋值指向向量a的首位元素，之后既能访问vector <int>容器中的其他元素，又可以修改其指向的元素
 		```
 	3. **反向迭代器**：能够修改其指向的元素，  
 		```cpp

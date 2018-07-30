@@ -39,27 +39,32 @@ C++的标准模板库（Standard Template Library, 下面简称`STL`）是一些
 		vector <int> a; //建立一个容器对象a，它的容器类是vector <int>，即元素为int类型的向量（或称动态数组）
 		```  
 	2. **容器适配器Container adapters**：栈stack，队列queue和优先队列priority_queue  
-	3. **有序关联容器Associative containers**：集合set，映射map  
+	3. **有序关联容器Associative containers**：集合set，映射map，  
 	4. **无序关联容器Unordered containers**：无序集合unordered_set，无序映射unordered_map  
 ![](/diagrams/NOIP%2007%20STL%20Container%20Types.png)  
 图片来自：Josuttis, N. M. (2015). The C++ standard library: A tutorial and reference. Upper Saddle River, NJ: Addison-Wesley.  
 
 2. **迭代器Iterator**：用于访问容器中元素的工具。迭代器是个变量，指向容器中的某个元素，作用类似于指针，```* 迭代器```就表示迭代器指向的元素。迭代器按照定义方式可以分为以下4种：
-	1. **正向迭代器**：能够修改其指向的元素，  
+	1. **正向迭代器**：能够修改其指向的元素  
 		```cpp 
-		vector<int>::iterator i //建立一个正向迭代器i，能被用于访问vector <int>容器中的元素  
+		vector<int>::iterator i; //建立一个正向迭代器i，访问vector <int>容器中的元素  
 		```  
-	2. **常量正向迭代器**：不能修改其指向的元素，  
-		```cpp
-		vector<int>::const_iterator i //建立一个常量正向迭代器i，能被用于访问vector <int>容器中的元素
+	2. **常量正向迭代器**：不能修改其指向的元素，但其注意其与**正向迭代器常量**的区别，详见下例  
+		```cpp  
+		vector <int> a;
+		
+		//一定要注意下面前两个概念（常量正向迭代器 vs. 正向迭代器常量）的差别，第三个（正向迭代器）是作为对比
+		vector<int>::const_iterator i = a.begin(); //建立一个【常量正向迭代器】i，初始化赋值指向向量a的首位元素，之后可以访问vector <int>容器中的不同元素，但不能修改其指向的元素
+		const vector<int>::iterator j = a.begin(); //建立一个【正向迭代器常量】j，初始化赋值指向向量a的首位元素，之后不能访问vector <int>容器中的其他元素，但可以修改其指向的元素
+		vector<int>::iterator k = a.begin(); //建立一个【正向迭代器】k，初始化赋值指向向量a的首位元素，之后既能访问vector <int>容器中的其他元素，又可以修改其指向的元素
 		```
 	3. **反向迭代器**：能够修改其指向的元素，  
 		```cpp
-		vector<int>::reverse_iterator i //建立一个反向迭代器i，能被用于访问vector <int>容器中的元素
+		vector<int>::reverse_iterator i; //建立一个反向迭代器i，访问vector <int>容器中的元素
 		```
 	4. **常量反向迭代器**：不能修改其指向的元素，  
 		```cpp
-		vector<int>::const_reverse_iterator i //建立一个常量反向迭代器i，能被用于访问vector <int>容器中的元素
+		vector<int>::const_reverse_iterator i; //建立一个常量反向迭代器i，访问vector <int>容器中的元素
 		```
 3. **算法Algorithms**：用来操作容器中元素的函数模板，例如排序、查找等。  
 

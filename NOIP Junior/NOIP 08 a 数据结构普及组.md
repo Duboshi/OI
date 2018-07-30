@@ -52,6 +52,7 @@ C++的标准模板库（Standard Template Library, 下面简称`STL`）是一些
 		vector<int>::iterator i; //建立一个正向迭代器i，访问vector <int>容器中的元素  
 		```  
 	2. **常量正向迭代器**：不能修改其指向元素的值，注意其与**正向迭代器常量**的区别，详见下例  
+		
 		```cpp  
 		vector <int> a;
 		
@@ -68,7 +69,9 @@ C++的标准模板库（Standard Template Library, 下面简称`STL`）是一些
 		++j; //让j指向其他元素，不可以  
 		++k; //让k指向其他元素，可以  
 		```  
-		对于正向迭代器和常量正向迭代器，```++迭代器```都表示指向后一个元素，而```--迭代器```则表示指向前一个元素。下例演示了如何通过正向迭代器遍历一个vector <int>容器：
+		
+		对于正向迭代器和常量正向迭代器，```++迭代器```都表示指向后一个元素，而```--迭代器```则表示指向前一个元素。下例演示了如何通过正向迭代器遍历一个vector <int>容器：  
+		
 		```cpp	
 		#include <iostream>  
 		#include <vector>  
@@ -98,16 +101,22 @@ C++的标准模板库（Standard Template Library, 下面简称`STL`）是一些
 			return 0;
 		}
 		```  
+		
 	3. **反向迭代器**：能够修改其指向元素的值  
+		
 		```cpp
 		vector<int>::reverse_iterator r; //建立一个反向迭代器i，访问vector <int>容器中的元素
 		```
+		
 	4. **常量反向迭代器**：不能修改其指向的元素，同理要注意与**反向迭代器**的区别，这里不赘述
+		
 		```cpp
 		vector<int>::const_reverse_iterator r;
 		//建立一个常量反向迭代器r，访问vector <int>容器中的元素，之后可以访问vector <int>容器中的不同元素，但不能修改其指向元素的值
-		```
-		下例演示了如何通过反向迭代器遍历一个vector容器：
+		```  
+		
+		下例演示了如何通过反向迭代器遍历一个vector容器：  
+		
 		```cpp  
 		#include <iostream>  
 		#include <vector>  
@@ -149,17 +158,17 @@ C++的标准模板库（Standard Template Library, 下面简称`STL`）是一些
 
 	不同容器上的迭代器功能不一样：  
 	
-		|容器|迭代器功能|  
-		|---|---|  
-		|vector|随机访问|  
-		|deque|随机访问|  
-		|list|双向|  
-		|set/multiset|双向|  
-		|map/multimap|双向|  
-		|stack|无（不支持迭代器）|  
-		|queue|无（不支持迭代器）|  
-		|priority_queue|无（不支持迭代器）|  
-		
+	|容器|迭代器功能|  
+	|---|---|  
+	|vector|随机访问|  
+	|deque|随机访问|  
+	|list|双向|  
+	|set/multiset|双向|  
+	|map/multimap|双向|  
+	|stack|无（不支持迭代器）|  
+	|queue|无（不支持迭代器）|  
+	|priority_queue|无（不支持迭代器）|  
+
 3. **算法Algorithms**：用来操作容器中元素的函数模板，例如排序、查找等  
 
 ## 正文

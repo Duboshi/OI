@@ -36,7 +36,9 @@ C++的标准模板库（Standard Template Library, 下面简称`STL`）是一些
 1. **容器Container**：用于存放数据的类模板，例如链表、双端队列等。容器可以分成4大类：
 	1. **顺序容器Sequence containers**：数组array，向量（或称动态数组）vector，链表list，前向链表（单向链表）forward_list，双端队列deque  
 		```cpp
-		vector <int> a; //建立一个容器对象a，它的容器类是vector <int>，即元素为int类型的向量（或称动态数组）
+		vector <int> a;
+		//建立一个容器对象a，它的容器类是vector <int>，即元素为int类型的向量（或称动态数组）  
+		//目前可以把向量理解成长度可以变化的数组（所以也叫动态数组）
 		```  
 	2. **容器适配器Container adapters**：栈stack，队列queue和优先队列priority_queue  
 	3. **有序关联容器Associative containers**：集合set，映射map，  
@@ -66,8 +68,32 @@ C++的标准模板库（Standard Template Library, 下面简称`STL`）是一些
 		++j; //让j指向其他元素，不可以  
 		++k; //让k指向其他元素，可以  
 		```  
-		对于正向迭代器和常量正向迭代器，```++迭代器```都表示指向后一个元素，而```--迭代器```则表示指向前一个元素。  
-		
+		对于正向迭代器和常量正向迭代器，```++迭代器```都表示指向后一个元素，而```--迭代器```则表示指向前一个元素。下例演示了如何通过正向迭代器遍历一个vector <int>容器：
+		```cpp	
+		#include <iostream>  
+		#include <vector>  
+		using namespace std;  
+
+		int main()
+		{  
+
+			vector <int> a; //建立一个元素为int类型的向量a
+			for (int n=0; n<5; ++n)
+				a.push_back(n); //为向量a赋值5个元素：{0, 1, 2, 3, 4}，push_back是vector库函数，在向量尾部添加元素
+
+			vector <int>::iterator i; //建立一个用于vector <int>向量的正向迭代器i
+
+			for (i=a.begin(); i!=a.end(); ++i)
+				cout << *i << " "; //从前向后遍历向量a，输出i所指向的元素*i，结果是"0 1 2 3 4 "
+			cout << endl;
+
+			for (i=a.end()-1; i!=a.begin()-1; --i)
+				cout << *i << " "; //从后向前遍历向量a，输出i所指向的元素*i，结果是"0 1 2 3 4 "
+			cout << endl;
+
+			return 0;
+		}
+		```		
 	3. **反向迭代器**：能够修改其指向的元素，  
 		```cpp
 		vector<int>::reverse_iterator i; //建立一个反向迭代器i，访问vector <int>容器中的元素
@@ -75,6 +101,32 @@ C++的标准模板库（Standard Template Library, 下面简称`STL`）是一些
 	4. **常量反向迭代器**：不能修改其指向的元素，  
 		```cpp
 		vector<int>::const_reverse_iterator i; //建立一个常量反向迭代器i，访问vector <int>容器中的元素
+		```
+		
+		
+		下面的程序演示了如何通过迭代器遍历一个vector容器中的所有元素：
+		```cpp  
+		#include <iostream>  
+		#include <vector>  
+		using namespace std;  
+		
+		int main()
+		{  
+			
+			vector <int> a; //建立一个元素为int类型的向量a
+			for (int n=0; n<5; ++n)
+				a.push_back(n); //为向量a赋值5个元素：{0, 1, 2, 3, 4}，push_back是vector库函数，在向量尾部添加元素
+				
+			vector <int>::iterator i; //建立一个用于vector <int>向量的正向迭代器i  
+			for (i=a.begin(); i != a.end(); ++i)
+				cout << *i << " "; //从前向后遍历向量a，输出i所指向的元素*i，结果是"0 1 2 3 4 "
+			cout << endl;  
+			
+			vector <int>::reverse_iterator r; //建立一个用于vector <int>向量的反向迭代器r  
+			for (r=a.rbegin(); r !=a.rend(); ++r)  
+				cout << *r << " "; //从后向前遍历向量a，输出r所指向的元素*r，结果是"4 3 2 1 0 "
+			cout << endl;
+		}  
 		```
 3. **算法Algorithms**：用来操作容器中元素的函数模板，例如排序、查找等。  
 

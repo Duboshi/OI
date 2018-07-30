@@ -88,7 +88,7 @@ C++的标准模板库（Standard Template Library, 下面简称`STL`）是一些
 				cout << *i << " ";
 			cout << endl;
 			//从前向后遍历向量a，输出i所指向的元素*i，结果是"0 1 2 3 4 "
-			//注意：begin()是容器中第一个元素的正向迭代器，而end()则是最后一个元素【之后一个位置】的正向迭代器
+			//注意：begin()是指向容器中第一个元素的正向迭代器，而end()则是指向最后一个元素【之后一个位置】的正向迭代器
 			
 			for (i=a.end()-1; i!=a.begin()-1; --i)
 				cout << *i << " ";
@@ -130,6 +130,8 @@ C++的标准模板库（Standard Template Library, 下面简称`STL`）是一些
 				cout << *r << " ";
 			cout << endl;
 			//从后向前遍历向量a，输出r所指向的元素*r，结果是"4 3 2 1 0 "
+			//注意：rbegin()是指向容器中最后一个元素的反向迭代器，而rend()则是指向第一个元素【之前一个位置】的反向迭代器
+			//注意：rbegin()和rend()不能用于正向迭代器，begin()和end()不能用于反向迭代器
 
 			for (r=a.rend()-1; r!=a.rbegin()-1; --r)
 				cout << *r << " ";

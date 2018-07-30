@@ -88,6 +88,7 @@ C++的标准模板库（Standard Template Library, 下面简称`STL`）是一些
 				cout << *i << " ";
 			cout << endl;
 			//从前向后遍历向量a，输出i所指向的元素*i，结果是"0 1 2 3 4 "
+			//注意：begin()是容器中第一个元素的正向迭代器，而end()则是最后一个元素【之后一个位置】的正向迭代器
 			
 			for (i=a.end()-1; i!=a.begin()-1; --i)
 				cout << *i << " ";
@@ -96,39 +97,46 @@ C++的标准模板库（Standard Template Library, 下面简称`STL`）是一些
 
 			return 0;
 		}
-		```		
-	3. **反向迭代器**：能够修改其指向的元素，  
+		```  
+	3. **反向迭代器**：能够修改其指向元素的值  
 		```cpp
-		vector<int>::reverse_iterator i; //建立一个反向迭代器i，访问vector <int>容器中的元素
+		vector<int>::reverse_iterator r; //建立一个反向迭代器i，访问vector <int>容器中的元素
 		```
-	4. **常量反向迭代器**：不能修改其指向的元素，  
+	4. **常量反向迭代器**：不能修改其指向的元素，同理要注意与**反向迭代器**的区别，这里不赘述
 		```cpp
-		vector<int>::const_reverse_iterator i; //建立一个常量反向迭代器i，访问vector <int>容器中的元素
+		vector<int>::const_reverse_iterator r;
+		//建立一个常量反向迭代器r，访问vector <int>容器中的元素，之后可以访问vector <int>容器中的不同元素，但不能修改其指向元素的值
 		```
-		
-		
-		下面的程序演示了如何通过迭代器遍历一个vector容器中的所有元素：
+		下例演示了如何通过反向迭代器遍历一个vector容器：
 		```cpp  
 		#include <iostream>  
 		#include <vector>  
 		using namespace std;  
-		
+
 		int main()
 		{  
-			
-			vector <int> a; //建立一个元素为int类型的向量a
+
+			vector <int> a;
+			//建立一个元素为int类型的向量a
+
 			for (int n=0; n<5; ++n)
-				a.push_back(n); //为向量a赋值5个元素：{0, 1, 2, 3, 4}，push_back是vector库函数，在向量尾部添加元素
-				
-			vector <int>::iterator i; //建立一个用于vector <int>向量的正向迭代器i  
-			for (i=a.begin(); i != a.end(); ++i)
-				cout << *i << " "; //从前向后遍历向量a，输出i所指向的元素*i，结果是"0 1 2 3 4 "
-			cout << endl;  
-			
-			vector <int>::reverse_iterator r; //建立一个用于vector <int>向量的反向迭代器r  
-			for (r=a.rbegin(); r !=a.rend(); ++r)  
-				cout << *r << " "; //从后向前遍历向量a，输出r所指向的元素*r，结果是"4 3 2 1 0 "
+				a.push_back(n);
+			//为向量a赋值5个元素：{0, 1, 2, 3, 4}，push_back是vector库函数，在向量尾部添加元素
+
+			vector <int>::reverse_iterator r;
+			//建立一个用于vector <int>向量的反向迭代器r
+
+			for (r=a.rbegin(); r!=a.rend(); ++r)
+				cout << *r << " ";
 			cout << endl;
+			//从后向前遍历向量a，输出r所指向的元素*r，结果是"4 3 2 1 0 "
+
+			for (r=a.rend()-1; r!=a.rbegin()-1; --r)
+				cout << *r << " ";
+			cout << endl;
+			//从前向后遍历向量a，输出r所指向的元素*r，结果是"0 1 2 3 4 "
+
+			return 0;
 		}  
 		```
 3. **算法Algorithms**：用来操作容器中元素的函数模板，例如排序、查找等。  

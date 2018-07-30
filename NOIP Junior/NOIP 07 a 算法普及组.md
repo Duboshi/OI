@@ -70,14 +70,14 @@ CP3第3.4节（Station Balance，Watering Grass，Dragon of Loowater）
 《李煜东》0X06节（RMQ问题与ST算法，Genius ACM）
 
 ------  
-> 【参考资料】
->> 《CCF中学生程序设计基础篇》第7章；
->> 《算法竞赛入门经典》第7、8章；
->> 《信息学奥赛一本通》第二部分第2-7章；
->> 《新标准C++程序设计教程》第9、19章；
->> 《程序设计导引及在线实践》第？？章；
->> 《算法基础与在线实践》第1-6章；
->> Competitive Programming 3 第3章；
->> Introduction to Algorithms 第1-4、6-8、16-17章；？？第9章
->> C++ Primer 第10章；？？
->> The C++ standard library 第11章。？？  
+###### 参考资料
+> 《CCF中学生程序设计基础篇》第7章；
+> 《算法竞赛入门经典》第7、8章；
+> 《信息学奥赛一本通》第二部分第2-7章；
+> 《新标准C++程序设计教程》第9、19章；
+> 《程序设计导引及在线实践》第？？章；
+> 《算法基础与在线实践》第1-6章；
+> Competitive Programming 3 第3章；
+> Introduction to Algorithms 第1-4、6-8、16-17章；？？第9章
+> C++ Primer 第10章；？？
+> The C++ standard library 第11章。？？  

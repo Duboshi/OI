@@ -71,11 +71,11 @@ Online Judge简介
 
 	* http://uoj.ac/
 
-		* 一个由国内信息学竞赛选手（主要是集训队员）维护的OJ，是开源的，题目在NOI水平。正睿教育（一个做信息学竞赛培训的著名机构）的OJ（http://zhengruioi.com/ ）就是基于UOJ做的。  
+		* 国家集训队员吕凯风创建的开源OJ，题目在NOI水平。正睿教育（一个做信息学竞赛培训的著名机构）的OJ（http://zhengruioi.com/ ）就是基于UOJ做的。  
 
 	* https://loj.ac/
 
-		* 集训队员刘承奥创建的OJ，跟UOJ有点儿像，受众也比较接近。
+		* 国家集训队员刘承奥创建的OJ，跟UOJ有点儿像，受众也比较接近。
 
 	* https://oj.thusaac.org/
 

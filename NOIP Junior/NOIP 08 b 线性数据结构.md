@@ -41,20 +41,21 @@ NOIP 08 b 线性数据结构，STL顺序容器和容器适配器（未完成）
 	![](/diagrams/NOIP%2008%20b%20顺序表3.gif)  
 	所以**顺序表删除操作的时间复杂度为O(n)** ；
 
-* **原理**：我们通过下面的例题实现顺序表的访问、插入和删除。
-	* 例1：[oj.noi.cn 1109 《维护序列》](https://github.com/Duboshi/OJ-solutions/blob/master/oj.noi.cn/1109%20%E7%BB%B4%E6%8A%A4%E5%BA%8F%E5%88%97.md)  
+* **原理**：我们通过例1：[oj.noi.cn 1109 《维护序列》](https://github.com/Duboshi/OJ-solutions/blob/master/oj.noi.cn/1109%20%E7%BB%B4%E6%8A%A4%E5%BA%8F%E5%88%97.md)实现顺序表的访问、插入和删除。  
 	
 * **容器**：直接用数组  
 
-## 向量（或动态数组）vector
-	```cpp
-	#include<iostream>
+## 向量（或称动态数组）vector
+* 《基》P234-235  
 
-	int main() 
-	{
-		return 0;
-	}
-	```
+* 《入》P109-111  
+
+* **特征**：向量是长度可变的顺序表，这是它相对于数组的优势，所以向量也被称为“动态数组”  
+
+* **原理**：  
+
+* **容器**：  
+	* 我们通过例二[UVa 101 The Blocks Problem](https://github.com/Duboshi/OJ-solutions/blob/master/UVa/UVa%20101%20The%20Blocks%20Problem.md)应用vector容器及其部分库函数。  
 
 ## 链表list
 * r《基》P130-135 
@@ -93,18 +94,6 @@ int main()
 
 ## 优先队列priority_queue
 * 《入》P119-120，例5-7 
-```cpp
-#include<iostream>
-
-int main() 
-{
-	return 0;
-}
-```
-
-## 向量（或称动态数组）vector
-* 《基》P234-235、例9.4
-* 《入》P109-111
 ```cpp
 #include<iostream>
 

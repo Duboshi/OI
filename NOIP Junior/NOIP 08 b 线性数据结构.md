@@ -52,6 +52,7 @@ NOIP 08 b 线性数据结构，STL顺序容器和容器适配器（未完成）
 
 * **容器**：  
 	* STL容器vector，其常用库函数如下表（《新标准》P334，《基础篇》P234）  
+	
 	|函数名|功能|  
 	|---|---|  
 	|||  
@@ -68,6 +69,7 @@ NOIP 08 b 线性数据结构，STL顺序容器和容器适配器（未完成）
 	|||  
 	|||  
 	|||  
+	
 	* 我们通过[例2：UVa 101 The Blocks Problem](https://github.com/Duboshi/OJ-solutions/blob/master/UVa/UVa%20101%20The%20Blocks%20Problem.md)应用vector容器及其部分库函数。  
 
 ## 链表list

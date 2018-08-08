@@ -59,40 +59,25 @@ NOIP 08 b 线性数据结构，STL顺序容器和容器适配器（未完成）
 		|函数名|功能|  
 		|---|---|  
 		|vector|构造函数，分为默认构造函数、填充构造函数、范围构造函数、复制构造函数4种，具体见下面例子|  
-		|||  
-		|||  
-		|||  
-		|||  
-		|||  
-		|||  
-		|||  
-		|||  
-		|||  
-		|||  
 		|operator = 赋值符号||  
-
-		Iterator:
-
+		|Iterator||  
 		|begin()|迭代器|  
 		|end()|迭代器|  
 		|rbegin()|迭代器|  
 		|rend()|迭代器|  
-
-		Capacity:
+		|【Capacity】||  
 		|size()||  
 		|max_size()||  
 		|resize()||  
 		|capacity()||  
 		|empty()||  
 		|reserve()||  
-
-		Element access:
+		|【Element access】|| 
 		|operator[]||  
 		|at||  
 		|front()||  
 		|back()||  
-
-		Modifiers:
+		|【Modifiers】||  
 		|assign||  
 		|push_back()||  
 		|pop_back()||  
@@ -100,8 +85,7 @@ NOIP 08 b 线性数据结构，STL顺序容器和容器适配器（未完成）
 		|erase()||  
 		|swap()||  
 		|clear()||  
-
-		Allocator:
+		|【Allocator】||  
 		|get_allocator()||  
 
 	* 我们通过[例2：UVa 101 The Blocks Problem](https://github.com/Duboshi/OJ-solutions/blob/master/UVa/UVa%20101%20The%20Blocks%20Problem.md)应用vector容器及其部分库函数。  

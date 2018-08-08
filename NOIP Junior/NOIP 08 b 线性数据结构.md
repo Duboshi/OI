@@ -58,10 +58,7 @@ NOIP 08 b 线性数据结构，STL顺序容器和容器适配器（未完成）
 
 		|函数名|功能|  
 		|---|---|  
-		|vector|默认构造函数，例如```vector <int> a```为以int为元素类型的空向量|  
-		|vector(int n)  vector(int n, const T& val)|填充构造函数，|  
-		|vector(iterator first, iterator last)|范围构造函数|  
-		|vector(???)|复制构造函数|  
+		|vector|构造函数，分为默认构造函数、填充构造函数、范围构造函数、复制构造函数4种，具体见下面例子|  
 		|||  
 		|||  
 		|||  

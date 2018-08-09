@@ -60,11 +60,11 @@ NOIP 08 b 线性数据结构，STL顺序容器和容器适配器（未完成）
 		|---|---|  
 		|vector|构造函数：分为默认构造函数、填充构造函数、范围构造函数、复制构造函数4种|  
 		|=|赋值符号：之前讲过，数组只能用```a={};```进行初始化赋值，不能用```a=b;```(a和b都是数组)赋值。向量与数组不同，向量可以用```a=b```（a和b都是向量）赋值。|  
-		|Iterator||  
-		|begin()|迭代器|  
-		|end()|迭代器|  
-		|rbegin()|迭代器|  
-		|rend()|迭代器|  
+		|【Iterator】||  
+		|begin()|迭代器函数：指向容器中第一个元素的正向迭代器|  
+		|end()|迭代器函数：指向最后一个元素【之后一个位置】的正向迭代器|  
+		|rbegin()|迭代器函数：指向容器中最后一个元素的反向迭代器|  
+		|rend()|迭代器函数：rend()则是指向第一个元素【之前一个位置】的反向迭代器|  
 		|【Capacity】||  
 		|size()||  
 		|max_size()||  
@@ -93,60 +93,19 @@ NOIP 08 b 线性数据结构，STL顺序容器和容器适配器（未完成）
 ## 链表list
 * r《基》P130-135 
 * 《入》P143-148，但是这两本书都没有用STL list的例题
-```cpp
-#include<iostream>
-
-int main() 
-{
-	return 0;
-}
-```
 
 ## 队列queue
 * r《基》P138-141，P233例9.3
 * 《入》P117-119，例5-6 
-```cpp
-#include<iostream>
-
-int main() 
-{
-	return 0;
-}
-```
 
 ## 双端队列deque
 * 《入》P139例6-1
-```cpp
-#include<iostream>
-
-int main() 
-{
-	return 0;
-}
-```
 
 ## 优先队列priority_queue
 * 《入》P119-120，例5-7 
-```cpp
-#include<iostream>
-
-int main() 
-{
-	return 0;
-}
-```
 
 ## 栈stack
 * 《入》P115-117
-```cpp
-#include<iostream>
-
-int main() 
-{
-	return 0;
-}
-```
-
 	
 ###### 参考资料  
 

@@ -68,10 +68,10 @@ NOIP 08 b 线性数据结构，STL顺序容器和容器适配器（未完成）
 		|**Capacity:**||  
 		|size_type size()|返回向量的大小：所包含元素的个数。（size_type数据类型是一种无符号整数）|  
 		|size_type capacity()|返回向量的容量：目前向量所占内存空间足以容纳的元素个数|  
-		|void resize()||  
+		|void resize()|```v.resize(n)```使向量v大小变为n，若为扩大至n则新增元素的默认值，若为缩小至n则删除多余元素。```v.resize(n, value)```使向量大小变为n，若为扩大至n则新增元素值均为value，若为缩小至n则删除多余元素。|  
 		|bool empty()|若向量为空（size()==0）则函数返回值为true，否则为false|  
 		|**Element access:**|| 
-		|operator[]||  
+		|[]||  
 		|at||  
 		|front()||  
 		|back()||  

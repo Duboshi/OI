@@ -54,7 +54,7 @@ NOIP 08 b 线性数据结构，STL顺序容器和容器适配器（未完成）
 	* 反过来，每当向量元素被删除，虽然不会上溢，但如果剩下的元素太少，实现向量的数组所占大部分空间会被浪费（这种情况叫下溢underflow），所以要检查向量实际长度与数组所占空间的比值（这个比值叫做装填银子load factor），如果低于某个值（例如25%、10%等等），就把一部分多余空间归还给操作系统，这是**向量的缩容原理**。  
 
 * **容器**：  
-	* STL容器vector，我们常用的库函数有（《新标准》P334，《基础篇》P234）：  
+	* STL容器vector，我们常用的库函数如下表，具体例子见下文例2.（《新标准》P334，《基础篇》P234）：  
 
 		|函数名|功能  
 		|---|---|  
@@ -66,10 +66,10 @@ NOIP 08 b 线性数据结构，STL顺序容器和容器适配器（未完成）
 		|reverse_iterator rbegin()|迭代器函数：指向容器中最后一个元素的反向迭代器|  
 		|reverse_iterator rend()|迭代器函数：rend()则是指向第一个元素【之前一个位置】的反向迭代器|  
 		|**Capacity:**||  
-		|size()|返回向量的大小：所包含元素的个数|  
-		|capacity()|返回向量的容量：目前向量所占内存空间足以容纳的元素个数|  
-		|resize()||  
-		|empty()|若向量为空（size()==0）则函数返回值为true，否则为false|  
+		|size_type size()|返回向量的大小：所包含元素的个数。（size_type数据类型是一种无符号整数）|  
+		|size_type capacity()|返回向量的容量：目前向量所占内存空间足以容纳的元素个数|  
+		|void resize()||  
+		|bool empty()|若向量为空（size()==0）则函数返回值为true，否则为false|  
 		|**Element access:**|| 
 		|operator[]||  
 		|at||  
@@ -84,7 +84,7 @@ NOIP 08 b 线性数据结构，STL顺序容器和容器适配器（未完成）
 		|swap()||  
 		|clear()||  
 
-	* 我们通过[例2：UVa 101 The Blocks Problem](https://github.com/Duboshi/OJ-solutions/blob/master/UVa/UVa%20101%20The%20Blocks%20Problem.md)应用vector容器及其部分库函数。  
+	* 我们通过[例3：UVa 101 The Blocks Problem](https://github.com/Duboshi/OJ-solutions/blob/master/UVa/UVa%20101%20The%20Blocks%20Problem.md)体验vector容器及其部分库函数的应用。  
 
 ## 链表list
 * r《基》P130-135 

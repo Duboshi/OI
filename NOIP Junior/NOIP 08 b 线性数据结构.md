@@ -60,24 +60,22 @@ NOIP 08 b 线性数据结构，STL顺序容器和容器适配器（未完成）
 		|---|---|  
 		|vector|构造函数：分为默认构造函数、填充构造函数、范围构造函数、复制构造函数4种|  
 		|=|赋值符号：之前讲过，数组只能用```a={};```进行初始化赋值，不能用```a=b;```(a和b都是数组)赋值。向量与数组不同，向量可以用```a=b```（a和b都是向量）赋值。|  
-		|**Iterators**||  
+		|**Iterators:**||  
 		|begin()|迭代器函数：指向容器中第一个元素的正向迭代器|  
 		|end()|迭代器函数：指向最后一个元素【之后一个位置】的正向迭代器|  
 		|rbegin()|迭代器函数：指向容器中最后一个元素的反向迭代器|  
 		|rend()|迭代器函数：rend()则是指向第一个元素【之前一个位置】的反向迭代器|  
-		|【Capacity】||  
-		|size()||  
-		|max_size()||  
+		|**Capacity:**||  
+		|size()|返回向量的大小：所包含元素的个数|  
+		|capacity()|返回向量的容量：目前向量所占内存空间足以容纳的元素个数|  
 		|resize()||  
-		|capacity()||  
-		|empty()||  
-		|reserve()||  
-		|【Element access】|| 
+		|empty()|若向量为空（size()==0）则函数返回值为true，否则为false|  
+		|**Element access:**|| 
 		|operator[]||  
 		|at||  
 		|front()||  
 		|back()||  
-		|【Modifiers】||  
+		|**Modifiers:**||  
 		|assign||  
 		|push_back()||  
 		|pop_back()||  
@@ -85,8 +83,6 @@ NOIP 08 b 线性数据结构，STL顺序容器和容器适配器（未完成）
 		|erase()||  
 		|swap()||  
 		|clear()||  
-		|【Allocator】||  
-		|get_allocator()||  
 
 	* 我们通过[例2：UVa 101 The Blocks Problem](https://github.com/Duboshi/OJ-solutions/blob/master/UVa/UVa%20101%20The%20Blocks%20Problem.md)应用vector容器及其部分库函数。  
 

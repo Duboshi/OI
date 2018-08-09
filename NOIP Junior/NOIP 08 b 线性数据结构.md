@@ -84,6 +84,81 @@ NOIP 08 b 线性数据结构，STL顺序容器和容器适配器（未完成）
 		|swap()||  
 		|clear()||  
 
+	* 例2：vector常见空函数
+	```cpp  
+	#include <iostream>
+	#include <vector>
+
+	using namespace std;
+
+	int main()
+	{	
+		//i是正向迭代器，r是反向迭代器 
+			vector<int>::iterator i;
+			vector <int>::reverse_iterator r;
+
+		//默认构造函数：向量v1的元素为int类型，v1长度为0
+			vector <int> v0;
+
+		//填充构造函数（不赋值）：向量v1的长度为1，但是没有赋值 
+			vector <int> v1(1);
+
+		//填充构造函数（赋值）：向量v3的长度为3，各元素值为1，即{1, 1, 1}
+			//【注意】vector <int> v3 = {1, 1, 1};也可以得到同样效果 
+			vector <int> v3(3, 1);
+
+		//范围构造函数：向量v2包含[v3.begin(), v3.begin()+2)区间内迭代器指向的元素，
+			//【注意】是左闭右开区间，所以这个例子中v4包含2个元素，值为1，即{1, 1}
+			vector <int> v2(v3.begin(), v3.begin()+2);
+
+		//复制构造函数：
+			vector <int> v4(v3);	//向量v4复制v3，即{1, 1, 1} 
+			v4.push_back(1);		//在v4末尾增加一个元素值为1，变成{1, 1, 1, 1} 
+
+		//= 赋值符号：
+			vector <int> v5 = v4;	//向量v5被赋值与v4相同，即{1, 1, 1, 1}
+			//【注意】之前讲过，这种赋值方式对于数组不可行
+			//如果v5和v3都是普通数组而不是向量，就不可以直接用=将v4赋值给v5
+
+			v5.push_back(1);	//将v5变为{1, 1, 1, 1, 1}
+
+
+		//迭代器函数
+			//begin()和end()用于正向迭代器
+			int n=0;
+			for	(i=v3.begin(); i!=v3.end(); ++i)
+			{
+				*i += n;
+				++n;
+				cout <<*i <<" ";	//v3被变成1 2 3
+			}
+			cout <<endl;
+
+			//rbegin()和rend()用于反向迭代器
+			for (r=v3.rbegin(); r!=v3.rend(); ++r)
+				cout <<*r <<" ";	//反向迭代器遍历输出：3 2 1
+			cout <<endl;
+
+		//size()和capacity()有区别 
+			cout <<v5.size() <<endl;		//5：v5原本只有4个元素，后来新增1个；
+			cout <<v5.capacity() <<endl;	//8：新增1个时扩容，容量变为原来的2倍 
+
+		//resize()函数 
+			vector <int> v10 = v5.resize(8);	//v10长度为8：{1,1,1,1,1,0,0,0} 
+			v10.resize(10, 1);	//v10长度为10：{1,1,1,1,1,0,0,0,1,1}
+
+		//empty()函数	
+			if (v0.empty())
+				cout <<"v0 is empty.";		//会输出这一行 
+			else
+				cout <<"v0 is NOT empty.";	//不会输出这一行 
+
+
+
+		return 0;
+	}
+	```  
+	
 	* 我们通过[例3：UVa 101 The Blocks Problem](https://github.com/Duboshi/OJ-solutions/blob/master/UVa/UVa%20101%20The%20Blocks%20Problem.md)体验vector容器及其部分库函数的应用。  
 
 ## 链表list

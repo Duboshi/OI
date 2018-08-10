@@ -66,23 +66,23 @@ NOIP 08 b 线性数据结构，STL顺序容器和容器适配器（未完成）
 		|reverse_iterator rbegin()|迭代器函数：指向容器中最后一个元素的反向迭代器|  
 		|reverse_iterator rend()|迭代器函数：rend()则是指向第一个元素【之前一个位置】的反向迭代器|  
 		|**Capacity:**||  
-		|size_type size()|返回向量的大小：所包含元素的个数。（size_type数据类型是一种无符号整数）|  
+		|size_type size()|返回向量的长度：所包含元素的个数。（size_type数据类型是一种无符号整数）|  
 		|size_type capacity()|返回向量的容量：目前向量所占内存空间足以容纳的元素个数|  
-		|void resize()|```v.resize(n)```使向量v大小变为n，若为扩大至n则新增元素的默认值，若为缩小至n则删除多余元素。```v.resize(n, value)```使向量大小变为n，若为扩大至n则新增元素值均为value，若为缩小至n则删除多余元素。|  
+		|void resize()|```v.resize(n)```使向量v长度变为n，若为扩大至n则新增元素的默认值，若为缩小至n则删除多余元素。```v.resize(n, value)```使向量长度变为n，若为扩大至n则新增元素值均为value，若为缩小至n则删除多余元素。|  
 		|bool empty()|若向量为空（size()==0）则函数返回值为true，否则为false|  
 		|**Element access:**|| 
 		|[]|访问符号：向量除了用迭代器访问之外，也可以向数组一样用[]符号访问符号，数组v的首个元素是```v[0]```。跟数组一样，向量的[]访问也有可能造成越界，但是系统不会提示|  
-		|at ()|访问函数：```v.at(0)```和```v[0]```都是向量v的第一个元素（的引用），但是at()函数会检查参数是否越界，|  
+		|at()|访问函数：```v.at(0)```和```v[0]```都是向量v的第一个元素（的引用），但是at()函数会检查参数是否越界，|  
 		|front()|访问函数：返回向量首元素的引用，主要不要与迭代器函数```beigin()```混淆|  
 		|back()|访问函数：返回向量末元素的引用，主要不要与迭代器函数```end()```混淆|  
 		|**Modifiers:**||  
-		|assign||  
-		|push_back()||  
-		|pop_back()||  
-		|insert()||  
-		|erase()||  
-		|swap()||  
-		|clear()||  
+		|assign|修改函数：|  
+		|void push_back()|修改函数：```v.push_back(value)```在向量v末尾新增一个值为value的元素，向量长度增加1|  
+		|void pop_back()|修改函数：```v.pop_back()```把向量v末位元素删掉，向量长度减少1|  
+		|insert()|修改函数：```v.insert(pos, value)```在向量v中迭代器pos指向的元素【之前】插入一个值为value的元素，函数返回值为迭代器pos；```v.insert(pos, n, value)```在向量v中迭代器pos指向的元素【之前】插入n个值为value的元素，函数返回值为迭代器pos；```v.insert()```|  
+		|iterator erase()|修改函数：```v.erase(pos)```删除向量v中迭代器pos指向的元素，```v.erase (first, last)```删除向量v中迭代器区间[first,last)指向的元素，注意是左闭右开区间|  
+		|void swap()|修改函数：```v1.swap(v2)```会将向量v1和v2的内容相互交换，这个函数并不要求v1和v2长度相等，但是要求两个向量元素的数据类型相同|  
+		|void clear()|修改函数：删除向量中的所有元素|  
 
 	* 例2：vector常见空函数
 		```cpp  

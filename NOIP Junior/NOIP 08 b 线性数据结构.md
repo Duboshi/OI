@@ -183,14 +183,14 @@ NOIP 08 b 线性数据结构，STL顺序容器和容器适配器（未完成）
 			//push_back()和pop_back()函数：
 				v4.pop_back(); v4.pop_back(); v4.pop_back();	//v4变成{1}
 				for (j=2; j<5; ++j)
-					v4.push_back(j);							//v4变成{1, 2, 3, 4} 
+					v4.push_back(j);			//v4变成{1, 2, 3, 4} 
 
 			//assign()函数：
-				v5.assign(5, 10);							//v5变成{10, 10, 10, 10, 10}
+				v5.assign(5, 10);				//v5变成{10, 10, 10, 10, 10}
 				v5.assign(v10.begin()+5, v10.begin()+10);	//v5变成{6, 7, 8, 9, 10} 
 
 				int arr [10] = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
-				v5.assign(arr, arr+5);						//v5变成{10, 20, 30, 40, 50}
+				v5.assign(arr, arr+5);				//v5变成{10, 20, 30, 40, 50}
 
 			//insert()函数：
 				i = v2.insert(v2.begin()+1, 2);	//v2由{1, 1}变成{1, 2, 1}，i=v2.begin()+1

@@ -92,12 +92,21 @@ NOIP 08 b 线性数据结构，STL顺序容器和容器适配器（未完成）
 
 		using namespace std;
 
+		//i是正向迭代器，r是反向迭代器 
+		vector<int>::iterator i;
+		vector <int>::reverse_iterator r;
+		int j;
+
+		//printVector用于输出向量内容，在下面各个例子可以调用printVector以便查验各个库函数作用 
+		void printVector(vector <int> v)
+		{
+			for (i=v.begin(); i!=v.end(); ++i)
+				cout <<*i <<" ";
+			cout <<endl;
+		}
+
 		int main()
 		{	
-			//i是正向迭代器，r是反向迭代器 
-				vector<int>::iterator i;
-				vector <int>::reverse_iterator r;
-
 			//默认构造函数：向量v1的元素为int类型，v1长度为0
 				vector <int> v0;
 
@@ -112,7 +121,7 @@ NOIP 08 b 线性数据结构，STL顺序容器和容器适配器（未完成）
 				//【注意】是左闭右开区间，所以这个例子中v4包含2个元素，值为1，即{1, 1}
 				vector <int> v2(v3.begin(), v3.begin()+2);
 
-			//复制构造函数：
+			//复制构造函数，push_back()函数：
 				vector <int> v4(v3);	//向量v4复制v3，即{1, 1, 1} 
 				v4.push_back(1);		//在v4末尾增加一个元素值为1，变成{1, 1, 1, 1} 
 
@@ -121,40 +130,85 @@ NOIP 08 b 线性数据结构，STL顺序容器和容器适配器（未完成）
 				//【注意】之前讲过，这种赋值方式对于数组不可行
 				//如果v5和v3都是普通数组而不是向量，就不可以直接用=将v4赋值给v5
 
+				//【注意】向量不能用= {1, 1, 1, 1}赋值
+
 				v5.push_back(1);	//将v5变为{1, 1, 1, 1, 1}
 
-
-			//迭代器函数
+			//迭代器函数：
 				//begin()和end()用于正向迭代器
 				int n=0;
 				for	(i=v3.begin(); i!=v3.end(); ++i)
 				{
 					*i += n;
 					++n;
-					cout <<*i <<" ";	//v3被变成1 2 3
+					cout <<*i <<" ";	//v3变成{1, 2, 3}
 				}
 				cout <<endl;
 
 				//rbegin()和rend()用于反向迭代器
 				for (r=v3.rbegin(); r!=v3.rend(); ++r)
-					cout <<*r <<" ";	//反向迭代器遍历输出：3 2 1
+					cout <<*r <<" ";	//反向迭代器遍历输出v3：3 2 1
 				cout <<endl;
 
 			//size()和capacity()有区别 
 				cout <<v5.size() <<endl;		//5：v5原本只有4个元素，后来新增1个；
 				cout <<v5.capacity() <<endl;	//8：新增1个时扩容，容量变为原来的2倍 
 
-			//resize()函数 
-				vector <int> v10 = v5.resize(8);	//v10长度为8：{1,1,1,1,1,0,0,0} 
-				v10.resize(10, 1);	//v10长度为10：{1,1,1,1,1,0,0,0,1,1}
+			//resize()函数： 
+				vector <int> v10 = v5;
+				v10.resize(8);		//v10长度变成 8：{1, 1, 1, 1, 1, 0, 0, 0} 
+				v10.resize(10, 1);	//v10长度变成10：{1, 1, 1, 1, 1, 0, 0, 0, 1, 1}
 
-			//empty()函数	
+			//empty()函数：	
 				if (v0.empty())
-					cout <<"v0 is empty.";		//会输出这一行 
+					cout <<"v0 is empty." <<endl;		//会输出这一行 
 				else
-					cout <<"v0 is NOT empty.";	//不会输出这一行 
+					cout <<"v0 is NOT empty." <<endl;	//不会输出这一行 
 
+			//[]访问符号： 
+				for (j=0; j<10; ++j)
+					v10[j] = j+1;		//把v10变成{1, 2, 3, 4, 5, 6, 7, 8, 9, 10} 
 
+			//at()函数： 
+				for (j=0; j<5; ++j)
+					v5.at(j) = j+1;	//把v5变成{1, 2, 3, 4, 5}
+
+				//for (j=0; j<5; ++j)
+				//	v4.at(j) = j+1;		//这里有越界，如果执行会输出out_of_range提示
+
+			//front()和back()函数：
+				cout <<v10.front() <<endl;	//1
+				cout <<v5.back() <<endl; 	//5
+
+			//push_back()和pop_back()函数：
+				v4.pop_back(); v4.pop_back(); v4.pop_back();	//v4变成{1}
+				for (j=2; j<5; ++j)
+					v4.push_back(j);							//v4变成{1, 2, 3, 4} 
+
+			//assign()函数：
+				v5.assign(5, 10);							//v5变成{10, 10, 10, 10, 10}
+				v5.assign(v10.begin()+5, v10.begin()+10);	//v5变成{6, 7, 8, 9, 10} 
+
+				int arr [10] = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
+				v5.assign(arr, arr+5);						//v5变成{10, 20, 30, 40, 50}
+
+			//insert()函数：
+				i = v2.insert(v2.begin()+1, 2);	//v2由{1, 1}变成{1, 2, 1}，i=v2.begin()+1
+				v2.insert(i+2, 2, 0);			//v2变成{1, 2, 1, 0, 0}，i值失效 
+				//【注意】由于插入过程中伴随着扩容，迭代器i指向的地址已经失效
+
+				i = v2.begin()+2;
+				v2.insert(i, v5.begin(), v5.begin()+2); //v2变成{1, 2, 10, 20, 1, 0, 0}
+
+			//erase()函数
+				v2.erase(v2.begin()+2);					//v2变成{1, 2, 20, 1, 0, 0}
+				v2.erase(v2.begin()+2, v2.end());		//v2变成{1, 2}
+
+			//clear()函数
+				v2.clear();	//v2变成空向量
+
+			//swap()函数
+				v2.swap(v5);	//两者互换：v5变成空向量，v2变成{10, 20, 30, 40, 50}
 
 			return 0;
 		}

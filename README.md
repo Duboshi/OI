@@ -114,8 +114,8 @@ OI (Olympiads in Informatics)，国内译作`信息学竞赛`（或`信息学奥
 [NOIP 07 a]:/NOIP%20Junior/NOIP%2007%20a%20算法普及组.md
 [NOIP 08 a]:/NOIP%20Junior/NOIP%2008%20a%20普及组数据结构.md
 [NOIP 08 b]:/NOIP%20Junior/NOIP%2008%20b%20线性数据结构.md
-[NOIP 08 b 顺序表]:/NOIP%2008%20b%20线性数据结构.md#顺序表sequence-list
-[NOIP 08 b 向量]:/NOIP%2008%20b%20线性数据结构.md#向量或称动态数组vector
+[NOIP 08 b 顺序表]:/NOIP%20Junior/NOIP%2008%20b%20线性数据结构.md#顺序表sequence-list
+[NOIP 08 b 向量]:/NOIP%20Junior/NOIP%2008%20b%20线性数据结构.md#向量或称动态数组vector
 [NOIP 08 c]:/NOIP%20Junior/NOIP%2008%20c%20树.md
 [MO]:https://blog.anudeep2011.com/mos-algorithm/
 [莫]:https://www.zhihu.com/question/27316467

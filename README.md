@@ -29,7 +29,7 @@ OI (Olympiads in Informatics)，国内译作`信息学竞赛`（或`信息学奥
 	7. STL算法  
 
 * [数据结构普及组][NOIP 08 a]
-	1. [线性数据结构：顺序表，~~数组~~（C++入门讲过了），向量（或动态数组），链表，双端队列，栈，队列，优先队列，STL顺序容器和容器适配器][NOIP 08 b]
+	1. [线性数据结构][NOIP 08 b]：[顺序表][NOIP 08 b 顺序表]，~~数组~~（C++入门讲过了），[向量（或动态数组）][NOIP 08 b 向量]，链表，双端队列，栈，队列，优先队列，STL顺序容器和容器适配器]
 	2. [树：二叉树的存储与遍历，STL关联容器，集合，映射][NOIP 08 c] 
 	3. ~~图~~（单列为“图论”）
 
@@ -114,6 +114,8 @@ OI (Olympiads in Informatics)，国内译作`信息学竞赛`（或`信息学奥
 [NOIP 07 a]:/NOIP%20Junior/NOIP%2007%20a%20算法普及组.md
 [NOIP 08 a]:/NOIP%20Junior/NOIP%2008%20a%20普及组数据结构.md
 [NOIP 08 b]:/NOIP%20Junior/NOIP%2008%20b%20线性数据结构.md
+[NOIP 08 b 顺序表]:/NOIP%2008%20b%20线性数据结构.md#顺序表sequence-list
+[NOIP 08 b 向量]:/NOIP%2008%20b%20线性数据结构.md#向量或称动态数组vector
 [NOIP 08 c]:/NOIP%20Junior/NOIP%2008%20c%20树.md
 [MO]:https://blog.anudeep2011.com/mos-algorithm/
 [莫]:https://www.zhihu.com/question/27316467

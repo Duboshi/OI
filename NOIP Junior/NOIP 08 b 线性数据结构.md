@@ -76,13 +76,14 @@ NOIP 08 b 线性数据结构，STL顺序容器和容器适配器（未完成）
 		|front()|访问函数：返回向量首元素的引用，主要不要与迭代器函数```beigin()```混淆|  
 		|back()|访问函数：返回向量末元素的引用，主要不要与迭代器函数```end()```混淆|  
 		|**Modifiers:**||  
-		|assign|修改函数：|  
 		|void push_back()|修改函数：```v.push_back(value)```在向量v末尾新增一个值为value的元素，向量长度增加1|  
 		|void pop_back()|修改函数：```v.pop_back()```把向量v末位元素删掉，向量长度减少1|  
+		|assign|修改函数：```v.assign(n, value)```将n个值为value的元素赋值给向量v；```v.assign(first, last)```将迭代器区间[first, last)内的元素赋值给向量v；```v.assign()```|  
 		|insert()|修改函数：```v.insert(pos, value)```在向量v中迭代器pos指向的元素【之前】插入一个值为value的元素，函数返回值为迭代器pos；```v.insert(pos, n, value)```在向量v中迭代器pos指向的元素【之前】插入n个值为value的元素，函数返回值为迭代器pos；```v.insert()```|  
-		|iterator erase()|修改函数：```v.erase(pos)```删除向量v中迭代器pos指向的元素，```v.erase (first, last)```删除向量v中迭代器区间[first,last)指向的元素，注意是左闭右开区间|  
-		|void swap()|修改函数：```v1.swap(v2)```会将向量v1和v2的内容相互交换，这个函数并不要求v1和v2长度相等，但是要求两个向量元素的数据类型相同|  
+		|iterator erase()|修改函数：```v.erase(pos)```删除向量v中迭代器pos指向的元素，```v.erase (first, last)```删除向量v中迭代器区间[first,last)指向的元素（可能在另一个向量或者数组），注意是左闭右开区间|  
 		|void clear()|修改函数：删除向量中的所有元素|  
+		|void swap()|修改函数：```v1.swap(v2)```会将向量v1和v2的内容相互交换，这个函数并不要求v1和v2长度相等，但是要求两个向量元素的数据类型相同|  
+
 
 	* 例2：vector常见空函数
 		```cpp  

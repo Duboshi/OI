@@ -200,14 +200,14 @@ NOIP 08 b 线性数据结构，STL顺序容器和容器适配器（未完成）
 				i = v2.begin()+2;
 				v2.insert(i, v5.begin(), v5.begin()+2); //v2变成{1, 2, 10, 20, 1, 0, 0}
 
-			//erase()函数
+			//erase()函数：
 				v2.erase(v2.begin()+2);					//v2变成{1, 2, 20, 1, 0, 0}
 				v2.erase(v2.begin()+2, v2.end());		//v2变成{1, 2}
 
-			//clear()函数
+			//clear()函数：
 				v2.clear();	//v2变成空向量
 
-			//swap()函数
+			//swap()函数：
 				v2.swap(v5);	//两者互换：v5变成空向量，v2变成{10, 20, 30, 40, 50}
 
 			return 0;

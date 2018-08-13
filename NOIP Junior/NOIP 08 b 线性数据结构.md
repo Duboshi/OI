@@ -247,15 +247,11 @@ NOIP 08 b 线性数据结构，STL顺序容器和容器适配器（未完成）
 > |文献|章节|  
 > |---|---|
 > |江涛，宋新波，朱全民.CCF中学生计算机程序设计基础篇[M].|第6、9章.|  
-> 刘汝佳.算法竞赛入门经典(第2版)[M].清华大学出版社,2014. 第5.2、6.1、6.2节.  
-> 郭炜.新标准C++程序设计教程[M].清华大学出版社,2012. 第19章.  
-> 邓俊辉.数据结构（C++语言版）第2版[M].清华大学出版社,2012. 第1-6章.  
-> 严蔚敏，吴伟民.数据结构 C语言版[M].清华大学出版社,2012. 第1-6章.  
-
-> Steven Halim.Competitive Programming[M].lulu,2013.  
-> Halim, Steven, and Felix Halim. Competitive Programming. Lulu, 2013.
-
-> Competitive Programming 3 第2章；  
-> Introduction to Algorithms 第1、第10章；  
-> C++ Primer 第9、11章；  
-> The C++ standard library 第6-12章。  
+> |刘汝佳.(2014).算法竞赛入门经典(第2版).清华大学出版社.|第5.2、6.1、6.2节.|  
+> |郭炜.(2012).新标准C++程序设计教程.清华大学出版社.|第19章.|  
+> |邓俊辉.(2012).数据结构（C++语言版）第2版.清华大学出版社.|第1-6章.|  
+> |严蔚敏，吴伟民(2012).数据结构 C语言版.清华大学出版社.|第1-6章.|  
+> |Halim, S., & Halim, F. (2013). Competitive programming 3. Raleigh, NC: Lulu.|第2章|  
+> |Cormen, T. H., Leiserson, C. E., Rivest, R. L., & Stein, C. (2009). Introduction to algorithms. Cambridge, Massachusetts: The MIT Press.|第1、第10章|  
+> |Lippman, S. B., Lajoie, J., & Moo, B. E. (2013). C++ Primer. Pearson Education.|第9、11章|  
+> |Josuttis, N. M. (2012). The C standard library: A tutorial and handbook. Upper Saddle River, NJ: Pearson Education.|第6-12章|  

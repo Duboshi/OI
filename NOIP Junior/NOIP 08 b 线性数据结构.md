@@ -251,7 +251,7 @@ NOIP 08 b 线性数据结构，STL顺序容器和容器适配器（未完成）
 > |郭炜. (2012). 新标准C++程序设计教程. 清华大学出版社.|第19章.|  
 > |邓俊辉. (2012). 数据结构（C++语言版）第2版 .清华大学出版社.|第1-6章.|  
 > |严蔚敏, 吴伟民. (2012). 数据结构 C语言版. 清华大学出版社.|第1-6章.|  
-> |Halim, S., & Halim, F. (2013). _Competitive programming_(3rd ed.). Raleigh, NC: Lulu.|第2章|  
-> |Cormen, T. H., Leiserson, C. E., Rivest, R. L., & Stein, C. (2009). _Introduction to algorithms_(3rd ed.). Cambridge, MA: The MIT Press.|第1、第10章|  
-> |Lippman, S. B., Lajoie, J., & Moo, B. E. (2013). _C++ Primer_(5th ed.). Upper Saddle River, NJ: Addison-Wesley.|第9、11章|  
-> |Josuttis, N. M. (2012). _The C++ standard library_ (2nd ed.). Upper Saddle River, NJ: Addison-Wesley.|第6-12章|  
+> |Halim, S., & Halim, F. (2013). _Competitive Programming_ (3rd ed.). Raleigh, NC: Lulu.|第2章|  
+> |Cormen, T. H., Leiserson, C. E., Rivest, R. L., & Stein, C. (2009). _Introduction to Algorithms_ (3rd ed.). Cambridge, MA: The MIT Press.|第1、第10章|  
+> |Lippman, S. B., Lajoie, J., & Moo, B. E. (2013). _C++ Primer_ (5th ed.). Upper Saddle River, NJ: Addison-Wesley.|第9、11章|  
+> |Josuttis, N. M. (2012). _The C++ Standard Library_ (2nd ed.). Upper Saddle River, NJ: Addison-Wesley.|第6-12章|  

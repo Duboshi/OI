@@ -226,15 +226,16 @@ NOIP 08 b 线性数据结构，STL顺序容器和容器适配器（未完成）
 	![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Gates-Hillman_Complex_at_Carnegie_Mellon_University_3.jpg/800px-Gates-Hillman_Complex_at_Carnegie_Mellon_University_3.jpg)  
 	(图为卡耐基梅隆大学计算机学院Gates-Hillman Complex，建于2009年)  
 	* 他们需要编程语言支持一种特殊的功能：**可以随意在信息列表中添加、删除、插入、重新排列信息元素**，这正是启发式思维的特点，显然顺序表执行这个功能会很低效，我们学过**顺序表的优点是访问效率高（常数时间复杂度），而插入、删除等效率并不理想（线性时间复杂度）**，当时没有其他编程语言具备高效添加/删除列表中元素的特点，所以Simon和Newell要先设计一种编程语言，然后才能用这门语言写出程序。他们找到RAND公司的计算机专家[Cliff Shaw](https://en.wikipedia.org/wiki/Cliff_Shaw)，三人一起于1956年设计出了
-IPL语言并做出Logic Theorist，该程序证明出《数学原理》中前52个定理中的38个，其中有些证明方法比原书证明更加简洁。下图出自是他们的论文，现在所有教材中链表的示意图都来源于此：  
+IPL语言并做出Logic Theorist，该程序证明出《数学原理》中前52个定理中的38个，其中有些证明方法比原书证明更加简洁。下图出自他们1957年的论文，现在所有教材中链表的示意图都发源于此：  
 
 		|原文图4|原文图7|  
 		|---|---|  
 		|![](/diagrams/NOIP%2008%20b%20List%20of%20elements.JPG)|![](/diagrams/NOIP%2008%20b%20Deletion%20from%20a%20List.JPG)|  
 		|元素之间不像顺序表那样直接相连，而是用location联系起来|只需改变location联系方式，不需要像顺序表那样移动其他元素即可实现高效删除，添加、插入、重新排列等功能同理|  
+		(Newell, Allen; Shaw, F. C. (1957). "Programming the Logic Theory Machine". Proceedings of the Western Joint Computer Conference: 230–240.)  
 	
 * **特征**：  
-	* 链表中逻辑相邻的元素存储位置并不相邻，它们靠指针彼此联系起来，Simon和Newell给出的链表中元素的联系是单向的，被称为**单向链表Singly linked list**，我们目前常用的是**双向链表**（如下图）。**头节点Head**和**尾节点Tail**统称为**哨兵节点Sentinel nodes**，其意义在于：仅将信息存储在它们之间的节点（例如图中的a<sub>1</sub>、a<sub>2</sub>、a<sub>4</sub>），而所有这些中间节点都有前驱和后继，于是设计任何操作时就无需再考虑第一个和最后一个元素可能没有前驱或者后继的边界情况。如果头节点和尾节点中间没有节点，则链表为空。  
+	* 链表中逻辑相邻的元素存储位置并不相邻，它们靠指针彼此联系起来，Simon和Newell给出的链表中元素的联系是单向的，被称为**单向链表Singly linked list**，我们目前常用的是**双向链表Doubly linked list**（如下图）。**头节点Head**和**尾节点Tail**统称为**哨兵节点Sentinel nodes**，其意义在于：仅将信息存储在它们之间的节点（例如图中的a<sub>1</sub>、a<sub>2</sub>、a<sub>4</sub>），而所有这些中间节点都有前驱和后继，于是设计任何操作时就无需再考虑第一个和最后一个元素可能没有前驱或者后继的边界情况。如果头节点和尾节点中间没有节点，则链表为空。  
 	![](/diagrams/NOIP%2008%20b%20双向链表.jpg)  
 	* 访问：循链访问的效率低于顺序表的寻秩访问，例如当我们想知道第i个元素的值时，必须从头开始，沿着图中蓝色链箭头逐个访问，直至第i个（或者从尾开始沿着黄色链箭头逐个访问）。对于长度为n的链表，如果访问各个元素的概率相等，那么**访问操作的时间复杂度为O(n)**  
 	* 插入：**只要指定了插入位置**，则插入一个元素需要改变4个指针的值，即为**常数时间复杂度O(1)**  

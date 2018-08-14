@@ -220,11 +220,14 @@ NOIP 08 b 线性数据结构，STL顺序容器和容器适配器（未完成）
 	* 我们通过[例3：UVa 101 The Blocks Problem](https://github.com/Duboshi/OJ-solutions/blob/master/UVa/UVa%20101%20The%20Blocks%20Problem.md)体验vector容器及其部分库函数的应用。  
 
 ## 链表linked list
-* 历史：链表的发明与人工智能的起源关系非常密切。1956年暑假，大约20位学者（其中主要参与者见上图）在达特茅斯学院召开名为"Summer Research Project on Artificial Intelligence"的会议，研究关于用机器模拟学习以及人类其他智能的问题。[达特茅斯会议](https://en.wikipedia.org/wiki/Dartmouth_workshop)是人工智能领域的开端。在这次会议上，Herbert Simon和Allen Newell报告了他们与Cliff Shaw一同开发的Logic Theory Machine，链表就是他们开发这个“逻辑理论机”过程中发明的。  
+* **历史**：链表的发明与人工智能的起源关系非常密切。1956年暑假，大约20位学者（其中主要参与者见上图）在达特茅斯学院召开名为"Summer Research Project on Artificial Intelligence"的会议，研究关于用机器模拟学习以及人类其他智能的问题。[达特茅斯会议](https://en.wikipedia.org/wiki/Dartmouth_workshop)是人工智能领域的开端。在这次会议上，Herbert Simon和Allen Newell报告了他们与Cliff Shaw一同开发的Logic Theory Machine，链表就是他们开发这个“逻辑理论机”过程中发明的。  
 ![](/diagrams/NOIP%2008%20b%201956%20Dartmouth%20Conference.jpg)  
-	* Simon和Newell的合作始于1952年，在RAND公司访问的卡耐基工学院（卡耐基梅隆大学前身）工业管理系主任和教授[Herbert A. Simon](https://en.wikipedia.org/wiki/Herbert_A._Simon)（1916-2001）认识了普林斯顿大学博士生[Allen Newell](https://en.wikipedia.org/wiki/Allen_Newell)（1927-1992）。Simon在那不久前（1949年）刚参与创建了工业管理系，1965年他还将与Newell以及数学系主任Alan J. Perlis一同创建卡耐基工学院计算机系并将发展成世界顶尖水平。Simon一生的研究都围绕人类决策行为，这是个多学科交叉的领域，所以他一生取得了多个学科的辉煌成就：在芝加哥大学跟从经济学家Henry Schultz取得政治学专业博士学位，最终获得计算机科学（1975年图灵奖）、经济学（1978年经济学纪念诺贝尔奖）和心理学（1993年美国心理学会终身贡献奖）三个学科的最高奖项。他认为人类尽管有做出理性决策的意愿，但很多情况下信息不完备或者没有做出完全理性决策的必要性，所以人们的实际决策往往只是令自己满意的而非客观最优的，即有限理性（bounded rationality）。有限理性决策过程中，人们使用的并非穷举式分析方法，而是启发式（Heuristic）分析方法（或称为探索法）：结合自己已掌握的信息（而非全部对做决策有用的信息）做出判断。数学教育家、斯坦福大学教授George Polya在《怎样解题》中传授的解题思路也是启发式分析方法：“你以前见过它吗？你是否见过相同的问题而形式稍有不同？”（很多同学在数学课上听说过这本书，读过之后感觉不会做的题目依旧不会做，这很正常，因为做题少，没有见过相同但形式不同的题目，所以依旧没有思路。奥林匹克数学解题是一门艺术，不是一门科学，所以它能考查学生的勤奋程度和头脑联系运用知识的能力。）  
+	* Simon和Newell的合作始于1952年，在RAND公司访问的卡耐基工学院（卡耐基梅隆大学前身）工业管理系主任和教授[Herbert A. Simon](https://en.wikipedia.org/wiki/Herbert_A._Simon)（1916-2001）认识了普林斯顿大学博士生[Allen Newell](https://en.wikipedia.org/wiki/Allen_Newell)（1927-1992）。Simon在那不久前（1949年）刚参与创建了工业管理系，1965年他还将与Newell以及数学系主任Alan J. Perlis一同创建卡耐基工学院计算机系并将发展成世界顶尖水平。Simon一生的研究都围绕人类决策行为，这是个多学科交叉的领域，所以他一生取得了多个学科的辉煌成就：在芝加哥大学跟从经济学家Henry Schultz取得政治学专业博士学位，最终获得计算机科学（与Newell一起获得1975年图灵奖）、经济学（1978年经济学纪念诺贝尔奖）和心理学（1993年美国心理学会终身贡献奖）三个学科的最高奖项。他认为人类尽管有做出理性决策的意愿，但很多情况下信息不完备或者没有做出完全理性决策的必要性，所以人们的实际决策往往只是令自己满意的而非客观最优的，即有限理性（bounded rationality）。有限理性决策过程中，人们使用的并非穷举式分析方法，而是启发式（Heuristic）分析方法（或称为探索法）：结合自己已掌握的信息（而非全部对做决策有用的信息）做出判断。数学教育家、斯坦福大学教授George Polya在《怎样解题》中传授的解题思路也是启发式分析方法：“你以前见过它吗？你是否见过相同的问题而形式稍有不同？” Newell曾在斯坦福读本科，深受Polya启发式分析方法的影响，所以他与Simon见面时，两人一拍即合，决定写一个计算机程序模拟人类的启发式分析方法来解决问题（具体来讲是证明 Bertrand Russell和Alfred North Whitehead所著《数学原理》中的定理）。本来Newell是在普林斯顿大学学习博弈论的，结果这样一来就转到了卡耐基工学院成为Simon的博士生。他们需要用于编写程序的语言支持一种特殊的功能：**可以随意在信息列表中添加、删除、插入、重新排列元素**，这正是启发式思维的特点，显然传统的顺序表执行这个特征会很低效，因为我们已经学过**顺序表的优点是是访问效率高（常数时间复杂度），而插入、删除等效率并不理想（线性时间复杂度）**，所以Simon和Newell要先设计一种计算机语言，然后才能用这门语言写出程序。他们找到RAND公司的计算机专家[Cliff Shaw](https://en.wikipedia.org/wiki/Cliff_Shaw)，三人一起于1955-1956年做出了Logic Theorist，证明出《数学原理》中前52个定理中的38个，其中有些证明方法比原书证明更加简洁。下图出自是他们的论文，现在所有教材中链表的示意图都来源于此：  
+	![](/diagrams/NOIP%2008%20b%20List%20of%20elements.JPG)  
+	![](/diagrams/NOIP%2008%20b%20Deletion%20from%20a%20List.JPG)
+	![](/diagrams/NOIP%2008%20b%20Simon%20Newell.jpg)  
 	* 
-	* 1955-1956年、[Cliff Shaw](https://en.wikipedia.org/wiki/Cliff_Shaw)和
+	* 
 	* 人工智能这个领域诞生于1956年达特茅斯学院召开的一次会议
 	
 	

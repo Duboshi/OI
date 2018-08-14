@@ -232,6 +232,7 @@ IPL语言并做出Logic Theorist，该程序证明出《数学原理》中前52�
 		|---|---|  
 		|![](/diagrams/NOIP%2008%20b%20List%20of%20elements.JPG)|![](/diagrams/NOIP%2008%20b%20Deletion%20from%20a%20List.JPG)|  
 		|元素之间不像顺序表那样直接相连，而是用location联系起来|只需改变location联系方式，不需要像顺序表那样移动其他元素即可实现高效删除，添加、插入、重新排列等功能同理|  
+		
 		(Newell, Allen; Shaw, F. C. (1957). "Programming the Logic Theory Machine". Proceedings of the Western Joint Computer Conference: 230–240.)  
 	
 * **特征**：  

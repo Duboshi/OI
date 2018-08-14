@@ -223,9 +223,25 @@ NOIP 08 b 线性数据结构，STL顺序容器和容器适配器（未完成）
 * 单链表：《基础篇》P130-133，例6.4维护序列的单链表解法（P133-134），例6.5z直飞航班（P136-138），《入》P143-144例6.4破损的键盘，没有使用容器的例子（因为容器是双向链表）  
 * 循环链表：《基础篇》P134-135，  
 * 双向链表：《基础篇》P135-136，《入》P144-147例6.5移动盒子，list容器《新标准》P336-339（包含例19.1约瑟夫问题的list解法）  
+
+
+
+
+* 历史：链表的发明与人工智能的起源关系非常密切。
+	* 1952年，RAND公司。
+	* [Herbert A. Simon](https://en.wikipedia.org/wiki/Herbert_A._Simon)（1916-2001)是卡耐基工学院（后成为卡耐基梅隆大学）工业管理系的系主任和教授，他是芝加哥大学经济学家Henry Schultz的学生，芝加哥大学，CMU工业管理学系，bounded rationality）
+	* Allen Newell（1927-1992，Stanford，Princeton）
+	* 1955-1956年[Allen Newell](https://en.wikipedia.org/wiki/Allen_Newell)、[Cliff Shaw](https://en.wikipedia.org/wiki/Cliff_Shaw)和
+	* 人工智能这个领域诞生于1956年达特茅斯学院召开的一次会议
+	
+	
+	
+	
+	
+	
+	
 * **特征**：逻辑上相邻的元素存储位置并不相邻，它们靠指针彼此联系起来，如图所示：  
 [NOIP 08 b 链表1]  
-	* 历史：链表这种数据结构是1955-1956年[Allen Newell](https://en.wikipedia.org/wiki/Allen_Newell)、[Cliff Shaw](https://en.wikipedia.org/wiki/Cliff_Shaw)和[Herbert A. Simon](https://en.wikipedia.org/wiki/Herbert_A._Simon)三位学者发明的。为了模拟，人工智能这个领域诞生于1956年达特茅斯学院召开的一次会议，  
 * **原理**：  
 	* 上文已知顺序表的优点是访问效率高（常数时间复杂度），而插入、删除等效率并不理想（线性时间复杂度）。
 * **容器**：  

@@ -220,16 +220,9 @@ NOIP 08 b 线性数据结构，STL顺序容器和容器适配器（未完成）
 	* 我们通过[例3：UVa 101 The Blocks Problem](https://github.com/Duboshi/OJ-solutions/blob/master/UVa/UVa%20101%20The%20Blocks%20Problem.md)体验vector容器及其部分库函数的应用。  
 
 ## 链表list
-* 单链表：《基础篇》P130-133，例6.4维护序列的单链表解法（P133-134），例6.5z直飞航班（P136-138），《入》P143-144例6.4破损的键盘，没有使用容器的例子（因为容器是双向链表）  
-* 循环链表：《基础篇》P134-135，  
-* 双向链表：《基础篇》P135-136，《入》P144-147例6.5移动盒子，list容器《新标准》P336-339（包含例19.1约瑟夫问题的list解法）  
-
-
-
-
 * 历史：链表的发明与人工智能的起源关系非常密切  
 ![](/diagrams/NOIP%2008%20b%201956%20Dartmouth%20Conference.jpg)  
-	* 1952年，RAND公司。
+	* 1956年暑假，大约20位学者（其中主要参与者见上图）在达特茅斯学院召开名为"Summer Research Project on Artificial Intelligence"的会议，研究关于用机器模拟学习以及人类其他智能的问题。[达特茅斯会议](https://en.wikipedia.org/wiki/Dartmouth_workshop)是人工智能领域的开端。在这次会议上，最吸引人的报告来自Herbert Simon和Allen Newell，他们发布了与Cliff Shaw一同开发的Logic Theory Machine，
 	* [Herbert A. Simon](https://en.wikipedia.org/wiki/Herbert_A._Simon)（1916-2001）是卡耐基工学院（后成为卡耐基梅隆大学）工业管理系的系主任和教授，这个系是他1949年参与创建的，1965年他还将与下文提到的Allen Newell以及数学系主任Alan J. Perlis一同创建该校的计算机系。Simon一生的研究都围绕人类决策行为，这是个多学科交叉的领域，所以他的履历极为传奇：在芝加哥大学跟从经济学家Henry Schultz取得政治学专业博士学位，最终获得计算机科学（1975年图灵奖）、经济学（1978年经济学纪念诺贝尔奖）和心理学（1993年美国心理学会终身贡献奖）三个学科的最高奖项。
 	* Allen Newell（1927-1992），Stanford，Princeton）
 	* 1955-1956年[Allen Newell](https://en.wikipedia.org/wiki/Allen_Newell)、[Cliff Shaw](https://en.wikipedia.org/wiki/Cliff_Shaw)和
@@ -244,8 +237,15 @@ NOIP 08 b 线性数据结构，STL顺序容器和容器适配器（未完成）
 * **特征**：逻辑上相邻的元素存储位置并不相邻，它们靠指针彼此联系起来，如图所示：  
 [NOIP 08 b 链表1]  
 * **原理**：  
-	* 上文已知顺序表的优点是访问效率高（常数时间复杂度），而插入、删除等效率并不理想（线性时间复杂度）。
-* **容器**：  
+	* 上文已知顺序表的优点是访问效率高（常数时间复杂度），而插入、删除等效率并不理想（线性时间复杂度）  
+	* 单链表：《基础篇》P130-133  
+		* 例6.4维护序列的单链表解法（P133-134）  
+		* 例6.5z直飞航班（P136-138）  
+		* 《入》P143-144例6.4破损的键盘  
+	* 双向链表：《基础篇》P135-136  
+		* 《入》P144-147例6.5移动盒子
+* **容器**：list容器《新标准》P336-339  
+		* 例19.1约瑟夫问题的list解法
 
 ## 队列queue
 * r《基》P138-141，P233例9.3

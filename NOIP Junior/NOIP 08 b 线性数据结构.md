@@ -233,7 +233,7 @@ IPL语言并做出Logic Theorist，该程序证明出《数学原理》中前52�
 		|![](/diagrams/NOIP%2008%20b%20List%20of%20elements.JPG)|![](/diagrams/NOIP%2008%20b%20Deletion%20from%20a%20List.JPG)|  
 		|元素之间不像顺序表那样直接相连，而是用location联系起来|只需改变location联系方式，不需要像顺序表那样移动其他元素即可实现高效删除，添加、插入、重新排列等功能同理|  
 		
-		(Newell, Allen; Shaw, F. C. (1957). "Programming the Logic Theory Machine". Proceedings of the Western Joint Computer Conference: 230–240.)  
+		Newell, Allen; Shaw, F. C. (1957). "Programming the Logic Theory Machine". Proceedings of the Western Joint Computer Conference: 230–240.  
 	
 * **特征**：  
 	* 链表中逻辑相邻的元素存储位置并不相邻，它们靠指针彼此联系起来，Simon和Newell给出的链表中元素的联系是单向的，被称为**单向链表Singly linked list**，我们目前常用的是**双向链表Doubly linked list**（如下图）。**头节点Head**和**尾节点Tail**统称为**哨兵节点Sentinel nodes**，其意义在于：仅将信息存储在它们之间的节点（例如图中的a<sub>1</sub>、a<sub>2</sub>、a<sub>4</sub>），而所有这些中间节点都有前驱和后继，于是设计任何操作时就无需再考虑第一个和最后一个元素可能没有前驱或者后继的边界情况。如果头节点和尾节点中间没有节点，则链表为空。  
@@ -276,3 +276,4 @@ IPL语言并做出Logic Theorist，该程序证明出《数学原理》中前52�
 > |Cormen, T. H., Leiserson, C. E., Rivest, R. L., & Stein, C. (2009). _Introduction to Algorithms_ (3rd ed.). Cambridge, MA: The MIT Press.|第1、第10章|  
 > |Lippman, S. B., Lajoie, J., & Moo, B. E. (2013). _C++ Primer_ (5th ed.). Upper Saddle River, NJ: Addison-Wesley.|第9、11章|  
 > |Josuttis, N. M. (2012). _The C++ Standard Library_ (2nd ed.). Upper Saddle River, NJ: Addison-Wesley.|第6-12章|  
+> |Newell, A., Shaw, F. C. (1957). _Programming the Logic Theory Machine_. Proceedings of the Western Joint Computer Conference: 230–240.||  

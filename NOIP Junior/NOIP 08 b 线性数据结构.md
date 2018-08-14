@@ -21,7 +21,7 @@ NOIP 08 b 线性数据结构，STL顺序容器和容器适配器（未完成）
 * [数组](#数组array)
 * [顺序表](#顺序表sequence-list)
 * [向量](#向量或称动态数组vector)
-* [链表](#链表list)
+* [链表](#链表linked-list)
 * [](#)
 
 ------  
@@ -219,11 +219,11 @@ NOIP 08 b 线性数据结构，STL顺序容器和容器适配器（未完成）
 	
 	* 我们通过[例3：UVa 101 The Blocks Problem](https://github.com/Duboshi/OJ-solutions/blob/master/UVa/UVa%20101%20The%20Blocks%20Problem.md)体验vector容器及其部分库函数的应用。  
 
-## 链表list
-* 历史：链表的发明与人工智能的起源关系非常密切。1956年暑假，大约20位学者（其中主要参与者见上图）在达特茅斯学院召开名为"Summer Research Project on Artificial Intelligence"的会议，研究关于用机器模拟学习以及人类其他智能的问题。[达特茅斯会议](https://en.wikipedia.org/wiki/Dartmouth_workshop)是人工智能领域的开端。在这次会议上，Herbert Simon和Allen Newell报告了他们与Cliff Shaw一同开发的Logic Theory Machine，链表就是他们开发这个“逻辑理论机”过程中发明的  
+## 链表linked list
+* 历史：链表的发明与人工智能的起源关系非常密切。1956年暑假，大约20位学者（其中主要参与者见上图）在达特茅斯学院召开名为"Summer Research Project on Artificial Intelligence"的会议，研究关于用机器模拟学习以及人类其他智能的问题。[达特茅斯会议](https://en.wikipedia.org/wiki/Dartmouth_workshop)是人工智能领域的开端。在这次会议上，Herbert Simon和Allen Newell报告了他们与Cliff Shaw一同开发的Logic Theory Machine，链表就是他们开发这个“逻辑理论机”过程中发明的。  
 ![](/diagrams/NOIP%2008%20b%201956%20Dartmouth%20Conference.jpg)  
-	> 1952年，卡耐基工学院（卡耐基梅隆大学前身）工业管理系的系主任和教授[Herbert A. Simon](https://en.wikipedia.org/wiki/Herbert_A._Simon)（1916-2001）RAND公司学术度假时认识了普林斯顿大学博士生[Allen Newell](https://en.wikipedia.org/wiki/Allen_Newell)（1927-1992）。Simon在那不久前（1949年）刚参与创建了工业管理系，1965年他还将与Newell以及数学系主任Alan J. Perlis一同创建计算机系并将发展至世界顶尖水平。Simon一生的研究都围绕人类决策行为，这是个多学科交叉的领域，所以他一生取得了多个学科的辉煌成就：在芝加哥大学跟从经济学家Henry Schultz取得政治学专业博士学位，最终获得计算机科学（1975年图灵奖）、经济学（1978年经济学纪念诺贝尔奖）和心理学（1993年美国心理学会终身贡献奖）三个学科的最高奖项。他认为人类尽管有做出理性决策的意愿，但很多情况下信息不完备或者没有做出完全理性决策的必要性，所以人们的实际决策往往只是令自己满意的而非客观最优的，这就是所谓有限理性（bounded rationality）。  
-	* ，Stanford，Princeton）
+	* Simon和Newell的合作始于1952年，在RAND公司访问的卡耐基工学院（卡耐基梅隆大学前身）工业管理系主任和教授[Herbert A. Simon](https://en.wikipedia.org/wiki/Herbert_A._Simon)（1916-2001）认识了普林斯顿大学博士生[Allen Newell](https://en.wikipedia.org/wiki/Allen_Newell)（1927-1992）。Simon在那不久前（1949年）刚参与创建了工业管理系，1965年他还将与Newell以及数学系主任Alan J. Perlis一同创建卡耐基工学院计算机系并将发展成世界顶尖水平。Simon一生的研究都围绕人类决策行为，这是个多学科交叉的领域，所以他一生取得了多个学科的辉煌成就：在芝加哥大学跟从经济学家Henry Schultz取得政治学专业博士学位，最终获得计算机科学（1975年图灵奖）、经济学（1978年经济学纪念诺贝尔奖）和心理学（1993年美国心理学会终身贡献奖）三个学科的最高奖项。他认为人类尽管有做出理性决策的意愿，但很多情况下信息不完备或者没有做出完全理性决策的必要性，所以人们的实际决策往往只是令自己满意的而非客观最优的，即有限理性（bounded rationality）。有限理性决策过程中，人们使用的并非穷举式分析方法，而是启发式（Heuristic）分析方法（或称为探索法）：结合自己已掌握的信息（而非全部对做决策有用的信息）做出判断。数学教育家、斯坦福大学教授George Polya在《怎样解题》中传授的解题思路也是启发式分析方法：“你以前见过它吗？你是否见过相同的问题而形式稍有不同？”（很多同学在数学课上听说过这本书，读过之后感觉不会做的题目依旧不会做，这很正常，因为做题少，没有见过相同但形式不同的题目，所以依旧没有思路。奥林匹克数学解题是一门艺术，不是一门科学，所以它能考查学生的勤奋程度和头脑联系运用知识的能力。）  
+	* 
 	* 1955-1956年、[Cliff Shaw](https://en.wikipedia.org/wiki/Cliff_Shaw)和
 	* 人工智能这个领域诞生于1956年达特茅斯学院召开的一次会议
 	

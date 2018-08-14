@@ -229,7 +229,7 @@ NOIP 08 b 线性数据结构，STL顺序容器和容器适配器（未完成）
 
 * 历史：链表的发明与人工智能的起源关系非常密切。
 	* 1952年，RAND公司。
-	* [Herbert A. Simon](https://en.wikipedia.org/wiki/Herbert_A._Simon)（1916-2001)是卡耐基工学院（后成为卡耐基梅隆大学）工业管理系的系主任和教授，他是芝加哥大学经济学家Henry Schultz的学生，芝加哥大学，CMU工业管理学系，bounded rationality）
+	* [Herbert A. Simon](https://en.wikipedia.org/wiki/Herbert_A._Simon)（1916-2001)是卡耐基工学院（后成为卡耐基梅隆大学）工业管理系的系主任和教授，这个系是他1949年参与创建的，1965年他还将与下文提到的Allen Newell以及数学系主任Alan J. Perlis一同创建该校的计算机系。Simon一生的研究都围绕人类决策行为，这是个多学科交叉的领域，所以他的履历极为传奇：从芝加哥大学政治学专业取得博士学位（导师是经济学家Henry Schultz），获得经济学、计算机和心理学三个学科的最高奖项：1975年图灵奖、1978年经济学纪念诺贝尔奖和1993年美国心理学会终身贡献奖。）
 	* Allen Newell（1927-1992，Stanford，Princeton）
 	* 1955-1956年[Allen Newell](https://en.wikipedia.org/wiki/Allen_Newell)、[Cliff Shaw](https://en.wikipedia.org/wiki/Cliff_Shaw)和
 	* 人工智能这个领域诞生于1956年达特茅斯学院召开的一次会议

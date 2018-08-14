@@ -220,12 +220,11 @@ NOIP 08 b 线性数据结构，STL顺序容器和容器适配器（未完成）
 	* 我们通过[例3：UVa 101 The Blocks Problem](https://github.com/Duboshi/OJ-solutions/blob/master/UVa/UVa%20101%20The%20Blocks%20Problem.md)体验vector容器及其部分库函数的应用。  
 
 ## 链表list
-* 历史：链表的发明与人工智能的起源关系非常密切  
+* 历史：链表的发明与人工智能的起源关系非常密切。1956年暑假，大约20位学者（其中主要参与者见上图）在达特茅斯学院召开名为"Summer Research Project on Artificial Intelligence"的会议，研究关于用机器模拟学习以及人类其他智能的问题。[达特茅斯会议](https://en.wikipedia.org/wiki/Dartmouth_workshop)是人工智能领域的开端。在这次会议上，Herbert Simon和Allen Newell报告了他们与Cliff Shaw一同开发的Logic Theory Machine，链表就是他们开发这个“逻辑理论机”过程中发明的  
 ![](/diagrams/NOIP%2008%20b%201956%20Dartmouth%20Conference.jpg)  
-	* 1956年暑假，大约20位学者（其中主要参与者见上图）在达特茅斯学院召开名为"Summer Research Project on Artificial Intelligence"的会议，研究关于用机器模拟学习以及人类其他智能的问题。[达特茅斯会议](https://en.wikipedia.org/wiki/Dartmouth_workshop)是人工智能领域的开端。在这次会议上，最吸引人的报告来自Herbert Simon和Allen Newell，他们发布了与Cliff Shaw一同开发的Logic Theory Machine，
-	* [Herbert A. Simon](https://en.wikipedia.org/wiki/Herbert_A._Simon)（1916-2001）是卡耐基工学院（后成为卡耐基梅隆大学）工业管理系的系主任和教授，这个系是他1949年参与创建的，1965年他还将与下文提到的Allen Newell以及数学系主任Alan J. Perlis一同创建该校的计算机系。Simon一生的研究都围绕人类决策行为，这是个多学科交叉的领域，所以他的履历极为传奇：在芝加哥大学跟从经济学家Henry Schultz取得政治学专业博士学位，最终获得计算机科学（1975年图灵奖）、经济学（1978年经济学纪念诺贝尔奖）和心理学（1993年美国心理学会终身贡献奖）三个学科的最高奖项。
-	* Allen Newell（1927-1992），Stanford，Princeton）
-	* 1955-1956年[Allen Newell](https://en.wikipedia.org/wiki/Allen_Newell)、[Cliff Shaw](https://en.wikipedia.org/wiki/Cliff_Shaw)和
+	> 1952年，卡耐基工学院（卡耐基梅隆大学前身）工业管理系的系主任和教授[Herbert A. Simon](https://en.wikipedia.org/wiki/Herbert_A._Simon)（1916-2001）RAND公司学术度假时认识了普林斯顿大学博士生[Allen Newell](https://en.wikipedia.org/wiki/Allen_Newell)（1927-1992）。Simon在那不久前（1949年）刚参与创建了工业管理系，1965年他还将与Newell以及数学系主任Alan J. Perlis一同创建计算机系并将发展至世界顶尖水平。Simon一生的研究都围绕人类决策行为，这是个多学科交叉的领域，所以他一生取得了多个学科的辉煌成就：在芝加哥大学跟从经济学家Henry Schultz取得政治学专业博士学位，最终获得计算机科学（1975年图灵奖）、经济学（1978年经济学纪念诺贝尔奖）和心理学（1993年美国心理学会终身贡献奖）三个学科的最高奖项。他认为人类尽管有做出理性决策的意愿，但很多情况下信息不完备或者没有做出完全理性决策的必要性，所以人们的实际决策往往只是令自己满意的而非客观最优的，这就是所谓有限理性（bounded rationality）。  
+	* ，Stanford，Princeton）
+	* 1955-1956年、[Cliff Shaw](https://en.wikipedia.org/wiki/Cliff_Shaw)和
 	* 人工智能这个领域诞生于1956年达特茅斯学院召开的一次会议
 	
 	

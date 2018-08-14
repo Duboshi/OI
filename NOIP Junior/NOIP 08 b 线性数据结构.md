@@ -226,7 +226,7 @@ NOIP 08 b 线性数据结构，STL顺序容器和容器适配器（未完成）
 	![](https://commons.wikimedia.org/wiki/File:Gates-Hillman_Complex_at_Carnegie_Mellon_University_3.jpg)  
 	* 他们需要用于编写程序的语言支持一种特殊的功能：**可以随意在信息列表中添加、删除、插入、重新排列元素**，这正是启发式思维的特点，显然传统的顺序表执行这个特征会很低效，因为我们已经学过**顺序表的优点是是访问效率高（常数时间复杂度），而插入、删除等效率并不理想（线性时间复杂度）**，所以Simon和Newell要先设计一种计算机语言，然后才能用这门语言写出程序。他们找到RAND公司的计算机专家[Cliff Shaw](https://en.wikipedia.org/wiki/Cliff_Shaw)，三人一起于1955-1956年做出了Logic Theorist，证明出《数学原理》中前52个定理中的38个，其中有些证明方法比原书证明更加简洁。下图出自是他们的论文，现在所有教材中链表的示意图都来源于此：  
 	|||  
-	|---|---|
+	|---|---|  
 	|![](/diagrams/NOIP%2008%20b%20List%20of%20elements.JPG)|![](/diagrams/NOIP%2008%20b%20Deletion%20from%20a%20List.JPG)|  
 	
 	* 

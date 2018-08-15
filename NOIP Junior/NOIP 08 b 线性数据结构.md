@@ -235,7 +235,7 @@ NOIP 08 b 线性数据结构，STL顺序容器和容器适配器（未完成）
 	![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Gates-Hillman_Complex_at_Carnegie_Mellon_University_3.jpg/800px-Gates-Hillman_Complex_at_Carnegie_Mellon_University_3.jpg)  
 	(图为卡耐基梅隆大学计算机学院Gates-Hillman Complex，建于2009年)  
 	* 根据启发式思维的特点，决策要根据已有的信息集合做出，而信息集合本身可以通过学习、取舍等思维过程发生变化。所以他们需要编程语言支持一种重要的功能：**可以对信息列表高效地添加、删除、插入、重新排列信息元素**，我们知道顺序表数据结构不适合执行这些功能，**顺序表的优势是访问效率高（常数时间复杂度），劣势是插入、删除等效率不理想（线性时间复杂度）**。当时没有其他编程语言支撑高效插入/删除，所以Simon和Newell需要先设计一种编程语言，然后才能用这门语言写出程序。他们找到RAND公司的计算机专家[Cliff Shaw](https://en.wikipedia.org/wiki/Cliff_Shaw)，三人一起于1956年设计出了
-IPL语言并做出Logic Theorist，该程序证明出《数学原理》中前52个定理中的38个，其中有些证明方法比原书证明更加简洁。链表数据结构就是IPL语言最重要的特征，下图出自他们1957年的论文，现在所有教材中链表的示意图都发源于此：  
+IPL语言并做出Logic Theory Machine，该程序证明出《数学原理》中前52个定理中的38个，其中有些证明方法比原书证明更加简洁，而链表数据结构正是IPL语言最重要的特征。下图出自1957年阐述Logic Theory Machine编程原理的论文，现在所有教材中链表的示意图都发源于此：  
 
 		|原文图4|原文图7|  
 		|---|---|  

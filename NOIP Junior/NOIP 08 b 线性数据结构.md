@@ -44,7 +44,8 @@ NOIP 08 b 线性数据结构，STL顺序容器和容器适配器（未完成）
 	![](/diagrams/NOIP%2008%20b%20顺序表3.gif)  
 	所以**顺序表删除操作的时间复杂度为O(n)** ，每次删除都要对多个其他元素进行操作，效率不理想。
 
-* **原理**：我们通过[例1：oj.noi.cn 1109 《维护序列》（1. 顺序表解法）](https://github.com/Duboshi/OJ-solutions/blob/master/oj.noi.cn/1109%20%E7%BB%B4%E6%8A%A4%E5%BA%8F%E5%88%97.md#1-顺序表解法)实现顺序表的访问、插入和删除。  
+* **原理**：  
+	* [例1：oj.noi.cn 1109 《维护序列》（1. 顺序表解法）](https://github.com/Duboshi/OJ-solutions/blob/master/oj.noi.cn/1109%20%E7%BB%B4%E6%8A%A4%E5%BA%8F%E5%88%97.md#1-顺序表解法)，我们通过这个例题的“1. 顺序表解法”用数组实现顺序表的访问、插入和删除。  
 	
 * **容器**：数组  
 
@@ -223,7 +224,7 @@ NOIP 08 b 线性数据结构，STL顺序容器和容器适配器（未完成）
 		}
 		```  
 	
-	* 我们通过[例3：UVa 101 The Blocks Problem](https://github.com/Duboshi/OJ-solutions/blob/master/UVa/UVa%20101%20The%20Blocks%20Problem.md)体验vector容器及其部分库函数的应用。  
+	* [例3：UVa 101 The Blocks Problem](https://github.com/Duboshi/OJ-solutions/blob/master/UVa/UVa%20101%20The%20Blocks%20Problem.md)，我们通过这个例题应用vector容器及其部分库函数。  
 
 [↑回到页首目录](#全文较长目录如下)  
 
@@ -252,7 +253,7 @@ IPL语言并做出Logic Theorist，该程序证明出《数学原理》中前52�
 * **原理**：  
 	* 单链表
 		* 例6.4维护序列的单链表解法（P133-134）  
-		* 我们通过[例4：oj.noi.cn 1109 《维护序列》（2. 单向链表解法）](https://github.com/Duboshi/OJ-solutions/blob/master/oj.noi.cn/1109%20%E7%BB%B4%E6%8A%A4%E5%BA%8F%E5%88%97.md#2-%E5%8D%95%E5%90%91%E9%93%BE%E8%A1%A8%E8%A7%A3%E6%B3%95)实现单向链表的访问、插入和删除。  
+		* [例4：oj.noi.cn 1109 《维护序列》（2. 单向链表解法）](https://github.com/Duboshi/OJ-solutions/blob/master/oj.noi.cn/1109%20%E7%BB%B4%E6%8A%A4%E5%BA%8F%E5%88%97.md#2-%E5%8D%95%E5%90%91%E9%93%BE%E8%A1%A8%E8%A7%A3%E6%B3%95)，我们通过这个例题用数组实现单向链表的访问、插入和删除。  
 		* 例6.5z直飞航班（P136-138）  
 		* 《入》P143-144例6.4破损的键盘  
 	* 双向链表

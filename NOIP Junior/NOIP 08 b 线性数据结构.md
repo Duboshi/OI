@@ -90,7 +90,7 @@ NOIP 08 b 线性数据结构，STL顺序容器和容器适配器（未完成）
 		|void clear()|修改函数：删除向量中的所有元素|  
 		|void swap()|修改函数：```v1.swap(v2)```会将向量v1和v2的内容相互交换，这个函数并不要求v1和v2长度相等，但是要求两个向量元素的数据类型相同|  
 
-	* 例2：vector常见空函数
+	* 例2：vector常见库函数
 		```cpp  
 		#include <iostream>
 		#include <vector>

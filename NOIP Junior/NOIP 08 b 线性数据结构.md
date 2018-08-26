@@ -261,7 +261,8 @@ IPL语言并做出Logic Theory Machine，该程序证明出《数学原理》中
 * **容器**：  
 	* STL容器```list```（**双向链表**）:  
 		* ```list```容器使用双向迭代器（而不像```vector```容器使用随机访问迭代器），所以只能用```++i;```、```--i```、```i != l.end();```（i是迭代器，l是某个list），不能使用```i+=c;```（c是整数常量）、```i<l.end();```、```i2 - i1```等命令  
-		* ```list```库函数包含了我们上面介绍的```vector```库函数，用法几乎相同。另外```list```还包含一些```vector```没有的库函数：```void push_front;```，```void pop_front();```，```void sort();```，```void remove();，```void unique();```，```void merge();```，```void splice();```，我们常用的库函数如下：  
+		* ```list```库函数包含了我们上面介绍的```vector```库函数，用法几乎相同。另外```list```还包含一些```vector```没有的库函数：```void push_front;```，```void pop_front();```，```void sort();```，```void remove();```，```void unique();```，```void merge();```，```void splice();```  
+	我们常用的库函数如下：  
 
 		|函数名|功能|  
 		|---|---|  

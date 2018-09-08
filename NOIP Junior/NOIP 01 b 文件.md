@@ -26,7 +26,7 @@ NOIP 01.b 文件（未完成）
 		}
 		```  
 	* 这种方法是C++语言用freopen函数把标准输入stdin和标准输出stdout重新定向到相关文件，使标准输入输出变成了文件输入、输出。**注意重定向方法最好搭配scanf和printf，如果搭配cin和cout会很慢**。（江涛，宋新波，朱全民，2016，第117页）
-	* 2010年NOIP之前，国内信息学竞赛不允许使用重定向方法，例如[2009年版的《NOI评测环境及对编程语言使用限制的规定》](http://www.noi.cn/newsview.html?id=67&hash=2DA1FD&type=6)，现在有些更新不及时的资料里还有“禁止使用重定向”的字样。实际上从2010年起[“应广大指导教师与选手的要求，NOIP放开对freopen函数与<fstream>头文件的限制”](http://www.noi.cn/newsview.html?id=204&hash=2E8B9A&type=1)，所以现在可以使用重定向方法。  
+	* 2010年NOIP之前，国内信息学竞赛不允许使用重定向方法，例如[2009年版的《NOI评测环境及对编程语言使用限制的规定》](http://www.noi.cn/newsview.html?id=67&hash=2DA1FD&type=6)，现在有些更新不及时的资料里还有“禁止使用重定向”的字样。实际上从2010年起[“应广大指导教师与选手的要求，NOIP放开对freopen函数与<fstream>头文件的限制”](http://www.noi.cn/newsview.html?id=204&hash=2E8B9A&type=1)，所以现在可以使用重定向方法，参加2011年版的[《关于NOI系列赛编程语言使用限制的规定》](http://www.noi.cn/newsview.html?id=229&hash=878FD2&type=6)  
 	* 例1  
 		* 输入（filename.in）:一个整数
 		* 输出（filename.out）:该整数的平方   

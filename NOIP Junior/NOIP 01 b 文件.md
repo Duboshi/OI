@@ -50,12 +50,34 @@ NOIP 01.b 文件（未完成）
 		//然后把拓展名改为.in，之后运行代码，就会发现同一个文件夹里多了一个.out文件。  
 		```
 
-* **流文件方法：fstream + fin/fout**  
-	* 这是第二简单的方法，需要
+* **二、流文件方法：fstream + fin/fout**  
+	* 这是第二简单的方法，需要：
 		* 包含<fstream>头文件  
 		* 再定义一个输入流文件变量fin和一个输出流文件变量fout  
 		* 用fin（而不再是cin）输入，fout（而不再是cout）输出  
-		（具体代码见例2）
+	（具体代码见例2）
+	* 与重定向方法相同，流文件方法在2010年NOIP之前也是不允许使用的，现在也已经放开使用了。
+	* 例2
+		* 输入（filename.in）:一个整数
+		* 输出（filename.out）:该整数的平方   
+	
+		```cpp
+		#include <fstream>	//包括<fstream>
+		using namespace std;
+		int main()
+		{
+			ifstream fin("filename.in");	//建立输入流文件变量fin
+			ofstream fout("filename.out");	//建立输出流文件变量fout
+			
+			int n;
+			fin >>n;	//用fin（而不再是cin）输入
+			fout <<n*n;	//用fout（而不再是cout）输出
+			return 0;
+		}
+		 //输入输出文件与源代码在同一个文件夹里：可以自己新建一个文本文档，里面写一个整数，
+		 //然后把拓展名改为.in，之后运行代码，就会发现同一个文件夹里多了一个.out文件。  
+		```
+		
 	* 本文暂时没有介绍使用close函数关闭文件的方法，详见江涛等人（2016）第113页例5.3  
 	
 * **文件指针方法：FILE * + fscanf/fprintf**

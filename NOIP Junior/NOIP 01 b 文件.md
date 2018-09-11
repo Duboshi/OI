@@ -55,7 +55,6 @@ NOIP 01.b 文件（未完成）
 		* 包含```<fstream>```头文件，因为输入流文件类型（ifstream）和输出流文件变量类型（ofstream）都在其中  
 		* 再定义一个输入流文件变量fin和一个输出流文件变量fout  
 		* 用fin（而不再是cin）输入，fout（而不再是cout）输出  
-	（并不是很简单了，具体代码见例2）
 	* 与重定向方法相同，流文件方法在2010年NOIP之前也是不允许使用的，现在也已经放开使用了。
 	* 例2
 		* 输入（filename.in）:一个整数
@@ -86,7 +85,6 @@ NOIP 01.b 文件（未完成）
 		* 建立文件指针```FILE *fin, *fout;```；  
 		* 打开输入文件和输出文件；  
 		* 使用fscanf（而不再是scanf）输入，使用fprintf（而不再是printf）输出；  
-	（具体代码见例3）
 	* 例3
 		* 输入（filename.in）:一个整数
 		* 输出（filename.out）:该整数的平方   
@@ -100,11 +98,11 @@ NOIP 01.b 文件（未完成）
 		{
 			FILE *fin, *fout;
 			fin = fopen("filename.in", "r");	//打开一个输入文件 
-			fout = fopen("filename3.out", "w"); //打开一个输出文件 
+			fout = fopen("filename3.out", "w");	//打开一个输出文件 
 
 			int n;
-			fscanf(fin, "%d", &n);	//使用fscanf输入，为n赋值
-			fprintf(fout, "%d", n*n); 
+			fscanf(fin, "%d", &n);		//使用fscanf输入
+			fprintf(fout, "%d", n*n);	//使用fprintf输出
 
 			return 0;
 		}

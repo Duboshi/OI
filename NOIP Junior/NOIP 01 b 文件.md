@@ -40,7 +40,7 @@ NOIP 01.b 文件（未完成）
 		int main ()
 		{
 			freopen("filename.in", "r", stdin);
-			freopen("filename.out", "w", stdout);
+			freopen("filename1.out", "w", stdout);
 			int n;
 			scanf("%d", &n);
 			printf("%d", n*n);
@@ -52,10 +52,10 @@ NOIP 01.b 文件（未完成）
 
 * **二、流文件方法：fstream + fin/fout**  
 	* 这是第二简单的方法，需要：
-		* 包含<fstream>头文件  
+		* 包含```<fstream>```头文件，因为输入流文件类型（ifstream）和输出流文件变量类型（ofstream）都在其中  
 		* 再定义一个输入流文件变量fin和一个输出流文件变量fout  
 		* 用fin（而不再是cin）输入，fout（而不再是cout）输出  
-	（具体代码见例2）
+	（并不是很简单了，具体代码见例2）
 	* 与重定向方法相同，流文件方法在2010年NOIP之前也是不允许使用的，现在也已经放开使用了。
 	* 例2
 		* 输入（filename.in）:一个整数
@@ -67,21 +67,50 @@ NOIP 01.b 文件（未完成）
 		int main()
 		{
 			ifstream fin("filename.in");	//建立输入流文件变量fin
-			ofstream fout("filename.out");	//建立输出流文件变量fout
+			ofstream fout("filename2.out");	//建立输出流文件变量fout
 			
 			int n;
 			fin >>n;	//用fin（而不再是cin）输入
 			fout <<n*n;	//用fout（而不再是cout）输出
 			return 0;
 		}
-		 //输入输出文件与源代码在同一个文件夹里：可以自己新建一个文本文档，里面写一个整数，
-		 //然后把拓展名改为.in，之后运行代码，就会发现同一个文件夹里多了一个.out文件。  
+		//输入输出文件与源代码在同一个文件夹里：可以自己新建一个文本文档，里面写一个整数，
+		//然后把拓展名改为.in，之后运行代码，就会发现同一个文件夹里多了一个.out文件。  
 		```
 		
 	* 本文暂时没有介绍使用close函数关闭文件的方法，详见江涛等人（2016）第113页例5.3  
 	
-* **文件指针方法：FILE * + fscanf/fprintf**
-	* 这是第三种做法，未完成
+* **三、文件指针方法：FILE * + fscanf/fprintf**  
+	* 这是第三简单的方法，需要：  
+		* 包括```<cstdio>```头文件，因为FILE类型在其中，而fopen、fscanf、fprintf都是其库函数；  
+		* 建立文件指针```FILE *fin, *fout;```；  
+		* 打开输入文件和输出文件；  
+		* 使用fscanf（而不再是scanf）输入，使用fprintf（而不再是printf）输出；  
+	（具体代码见例3）
+	* 例3
+		* 输入（filename.in）:一个整数
+		* 输出（filename.out）:该整数的平方   
+		
+		```cpp
+		#include <cstdio>
+
+		using namespace std;
+
+		int main()
+		{
+			FILE *fin, *fout;
+			fin = fopen("filename.in", "r");	//打开一个输入文件 
+			fout = fopen("filename3.out", "w"); //打开一个输出文件 
+
+			int n;
+			fscanf(fin, "%d", &n);	//使用fscanf输入，为n赋值
+			fprintf(fout, "%d", n*n); 
+
+			return 0;
+		}
+		//输入输出文件与源代码在同一个文件夹里：可以自己新建一个文本文档，里面写一个整数，
+  		//然后把拓展名改为.in，之后运行代码，就会发现同一个文件夹里多了一个.out文件。  
+		```
 
 ###### 参考文献  
 > |文献|章节|  

@@ -43,8 +43,6 @@ OI (Olympiads in Informatics)，国内译作`信息学竞赛`（或`信息学奥
 
 * 图论普及组：
 	1. 图的遍历，拓扑排序，欧拉回路
-	2. 最小生成树MST：Kruskal算法，Prim算法
-	3. 单源最短路SSSP：Dijkstra算法，Bellman-Ford算法及其SPFA优化，Floyd-Warshall算法
 
 ## NOIP提高组  
  
@@ -62,8 +60,8 @@ OI (Olympiads in Informatics)，国内译作`信息学竞赛`（或`信息学奥
 	2. 字典树Trie，哈希表Hash与字符串，KMP算法，AC自动机，后缀数组，后缀树  
 
 * 图论提高组：
-	1. 生成树：最近公共祖先LCA，最小有向生成树/最小树形图
-	2. 最短路：负环/负圈，差分约束   
+	1. 最小生成树MST，Kruskal算法，Prim算法，最近公共祖先LCA，最小有向生成树/最小树形图
+	3. 单源最短路SSSP，Dijkstra算法，Bellman-Ford算法及其SPFA优化，Floyd-Warshall算法，负环/负圈，差分约束   
 	3. 连通性：强连通分量SCC，Trajan算法，Kosaraju算法，2SAT问题
 
 ## 省选与NOI

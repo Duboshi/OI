@@ -60,7 +60,8 @@ OI (Olympiads in Informatics)，国内译作`信息学竞赛`（或`信息学奥
 * 图论提高组：
 	1. 最小生成树MST，Kruskal算法，Prim算法，最近公共祖先LCA，最小有向生成树/最小树形图
 	3. 单源最短路SSSP，Dijkstra算法，Bellman-Ford算法及其SPFA优化，Floyd-Warshall算法，负环/负圈，差分约束   
-	3. 连通性：强连通分量SCC，Trajan算法，Kosaraju算法，2-SAT问题，
+	3. 连通性：强连通分量SCC，Trajan算法，Kosaraju算法，2-SAT问题  
+	4. 拓扑排序
 
 ## 省选与NOI
 
